@@ -1,0 +1,10 @@
+C:\Users\vicky.lan.ECPAY\Documents\Visual Studio 2010\Projects\CheckLoveCode\CheckLoveCode\bin\CheckLoveCode.dll
+C:\Users\vicky.lan.ECPAY\Documents\Visual Studio 2010\Projects\CheckLoveCode\CheckLoveCode\bin\CheckLoveCode.pdb
+C:\Users\vicky.lan.ECPAY\Documents\Visual Studio 2010\Projects\CheckLoveCode\CheckLoveCode\obj\Debug\CheckLoveCode.csprojResolveAssemblyReference.cache
+C:\Users\vicky.lan.ECPAY\Documents\Visual Studio 2010\Projects\CheckLoveCode\CheckLoveCode\obj\Debug\CheckLoveCode.dll
+C:\Users\vicky.lan.ECPAY\Documents\Visual Studio 2010\Projects\CheckLoveCode\CheckLoveCode\obj\Debug\CheckLoveCode.pdb
+D:\ECgithub\Invoice_Net\Sample Code\15. 愛心碼驗證\CheckLoveCode\bin\CheckLoveCode.dll
+D:\ECgithub\Invoice_Net\Sample Code\15. 愛心碼驗證\CheckLoveCode\bin\CheckLoveCode.pdb
+D:\ECgithub\Invoice_Net\Sample Code\15. 愛心碼驗證\CheckLoveCode\obj\Debug\CheckLoveCode.csprojResolveAssemblyReference.cache
+D:\ECgithub\Invoice_Net\Sample Code\15. 愛心碼驗證\CheckLoveCode\obj\Debug\CheckLoveCode.dll
+D:\ECgithub\Invoice_Net\Sample Code\15. 愛心碼驗證\CheckLoveCode\obj\Debug\CheckLoveCode.pdb

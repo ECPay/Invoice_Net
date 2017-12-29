@@ -1,0 +1,15 @@
+C:\Users\eric.chou\Desktop\程式範例\歐付寶\歐付寶SDK\歐付寶.NET\02.電子發票\09.查詢折讓作廢明細\InvoiceQueryAllowanceInvalid\InvoiceQueryAllowanceInvalid\bin\InvoiceQueryAllowanceInvalid.dll
+C:\Users\eric.chou\Desktop\程式範例\歐付寶\歐付寶SDK\歐付寶.NET\02.電子發票\09.查詢折讓作廢明細\InvoiceQueryAllowanceInvalid\InvoiceQueryAllowanceInvalid\bin\InvoiceQueryAllowanceInvalid.pdb
+C:\Users\eric.chou\Desktop\程式範例\歐付寶\歐付寶SDK\歐付寶.NET\02.電子發票\09.查詢折讓作廢明細\InvoiceQueryAllowanceInvalid\InvoiceQueryAllowanceInvalid\obj\Debug\InvoiceQueryAllowanceInvalid.csprojResolveAssemblyReference.cache
+C:\Users\eric.chou\Desktop\程式範例\歐付寶\歐付寶SDK\歐付寶.NET\02.電子發票\09.查詢折讓作廢明細\InvoiceQueryAllowanceInvalid\InvoiceQueryAllowanceInvalid\obj\Debug\InvoiceQueryAllowanceInvalid.dll
+C:\Users\eric.chou\Desktop\程式範例\歐付寶\歐付寶SDK\歐付寶.NET\02.電子發票\09.查詢折讓作廢明細\InvoiceQueryAllowanceInvalid\InvoiceQueryAllowanceInvalid\obj\Debug\InvoiceQueryAllowanceInvalid.pdb
+Z:\資訊\01.技術客服\●範例專區\allPay\NewVer\Final\範例整理.NET\04.電子發票SDK\12.查詢折讓作廢明細\InvoiceQueryAllowanceInvalid\bin\InvoiceQueryAllowanceInvalid.dll
+Z:\資訊\01.技術客服\●範例專區\allPay\NewVer\Final\範例整理.NET\04.電子發票SDK\12.查詢折讓作廢明細\InvoiceQueryAllowanceInvalid\bin\InvoiceQueryAllowanceInvalid.pdb
+Z:\資訊\01.技術客服\●範例專區\allPay\NewVer\Final\範例整理.NET\04.電子發票SDK\12.查詢折讓作廢明細\InvoiceQueryAllowanceInvalid\obj\Debug\InvoiceQueryAllowanceInvalid.csprojResolveAssemblyReference.cache
+Z:\資訊\01.技術客服\●範例專區\allPay\NewVer\Final\範例整理.NET\04.電子發票SDK\12.查詢折讓作廢明細\InvoiceQueryAllowanceInvalid\obj\Debug\InvoiceQueryAllowanceInvalid.dll
+Z:\資訊\01.技術客服\●範例專區\allPay\NewVer\Final\範例整理.NET\04.電子發票SDK\12.查詢折讓作廢明細\InvoiceQueryAllowanceInvalid\obj\Debug\InvoiceQueryAllowanceInvalid.pdb
+C:\Users\vicky.lan.ECPAY\Desktop\31.電子發票SDK\12.查詢折讓作廢明細\InvoiceQueryAllowanceInvalid\bin\InvoiceQueryAllowanceInvalid.dll
+C:\Users\vicky.lan.ECPAY\Desktop\31.電子發票SDK\12.查詢折讓作廢明細\InvoiceQueryAllowanceInvalid\bin\InvoiceQueryAllowanceInvalid.pdb
+C:\Users\vicky.lan.ECPAY\Desktop\31.電子發票SDK\12.查詢折讓作廢明細\InvoiceQueryAllowanceInvalid\obj\Debug\InvoiceQueryAllowanceInvalid.csprojResolveAssemblyReference.cache
+C:\Users\vicky.lan.ECPAY\Desktop\31.電子發票SDK\12.查詢折讓作廢明細\InvoiceQueryAllowanceInvalid\obj\Debug\InvoiceQueryAllowanceInvalid.dll
+C:\Users\vicky.lan.ECPAY\Desktop\31.電子發票SDK\12.查詢折讓作廢明細\InvoiceQueryAllowanceInvalid\obj\Debug\InvoiceQueryAllowanceInvalid.pdb

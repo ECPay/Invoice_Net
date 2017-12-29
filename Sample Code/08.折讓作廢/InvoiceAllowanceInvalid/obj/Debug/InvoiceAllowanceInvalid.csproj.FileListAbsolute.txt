@@ -1,0 +1,10 @@
+Z:\資訊\01.技術客服\●範例專區\allPay\NewVer\Final\範例整理.NET\04.電子發票SDK\08.折讓作廢\InvoiceAllowanceInvalid\bin\InvoiceAllowanceInvalid.dll
+Z:\資訊\01.技術客服\●範例專區\allPay\NewVer\Final\範例整理.NET\04.電子發票SDK\08.折讓作廢\InvoiceAllowanceInvalid\bin\InvoiceAllowanceInvalid.pdb
+Z:\資訊\01.技術客服\●範例專區\allPay\NewVer\Final\範例整理.NET\04.電子發票SDK\08.折讓作廢\InvoiceAllowanceInvalid\obj\Debug\InvoiceAllowanceInvalid.csprojResolveAssemblyReference.cache
+Z:\資訊\01.技術客服\●範例專區\allPay\NewVer\Final\範例整理.NET\04.電子發票SDK\08.折讓作廢\InvoiceAllowanceInvalid\obj\Debug\InvoiceAllowanceInvalid.dll
+Z:\資訊\01.技術客服\●範例專區\allPay\NewVer\Final\範例整理.NET\04.電子發票SDK\08.折讓作廢\InvoiceAllowanceInvalid\obj\Debug\InvoiceAllowanceInvalid.pdb
+C:\Users\vicky.lan.ECPAY\Desktop\31.電子發票SDK\08.折讓作廢\InvoiceAllowanceInvalid\bin\InvoiceAllowanceInvalid.dll
+C:\Users\vicky.lan.ECPAY\Desktop\31.電子發票SDK\08.折讓作廢\InvoiceAllowanceInvalid\bin\InvoiceAllowanceInvalid.pdb
+C:\Users\vicky.lan.ECPAY\Desktop\31.電子發票SDK\08.折讓作廢\InvoiceAllowanceInvalid\obj\Debug\InvoiceAllowanceInvalid.csprojResolveAssemblyReference.cache
+C:\Users\vicky.lan.ECPAY\Desktop\31.電子發票SDK\08.折讓作廢\InvoiceAllowanceInvalid\obj\Debug\InvoiceAllowanceInvalid.dll
+C:\Users\vicky.lan.ECPAY\Desktop\31.電子發票SDK\08.折讓作廢\InvoiceAllowanceInvalid\obj\Debug\InvoiceAllowanceInvalid.pdb

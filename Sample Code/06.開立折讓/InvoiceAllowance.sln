@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvoiceAllowance", "InvoiceAllowance\InvoiceAllowance.csproj", "{314912F8-4D9F-45D8-A0E0-DA87471D8C09}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{314912F8-4D9F-45D8-A0E0-DA87471D8C09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{314912F8-4D9F-45D8-A0E0-DA87471D8C09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{314912F8-4D9F-45D8-A0E0-DA87471D8C09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{314912F8-4D9F-45D8-A0E0-DA87471D8C09}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
