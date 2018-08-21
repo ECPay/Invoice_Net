@@ -8,6 +8,7 @@ using Ecpay.EInvoice.Integration.Models;
 using Ecpay.EInvoice.Integration.Service;
 using Ecpay.EInvoice.Integration.Enumeration;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
 //一般開立發票
 namespace Issue
@@ -35,10 +36,10 @@ namespace Issue
             //invc.TaxType = TaxTypeEnum.DutyFree;//課稅類別
             invc.SalesAmount = "300";//發票金額。含稅總金額。
             invc.InvoiceRemark = "(qwrrg)";//備註
-            
+
             invc.invType = TheWordTypeEnum.Normal;//發票字軌類別
             //invc.vat = VatEnum.No;//商品單價是否含稅
-            
+
 
 
 
@@ -50,9 +51,9 @@ namespace Issue
                 ItemWord = "個",//單位
                 ItemPrice = "100.1",//商品單價
                 //ItemTaxType  =TaxTypeEnum.DutyFree//商品課稅別
-                ItemAmount ="100.1",//總金額
-                
-                
+                ItemAmount = "100.1",//總金額
+
+
             });
             invc.Items.Add(new Item()
             {
@@ -63,7 +64,7 @@ namespace Issue
                 ItemAmount = "200",//總金額
                 //ItemTaxType  =TaxTypeEnum.DutyFree//商品課稅別
             });
-            
+
             //2. 初始化發票Service物件
             Invoice<InvoiceCreate> inv = new Invoice<InvoiceCreate>();
             //3. 指定測試環境, 上線時請記得改Prod
@@ -71,15 +72,46 @@ namespace Issue
             //4. 設定歐付寶提供的 Key 和 IV
             inv.HashIV = "q9jcZX8Ib9LM8wYk";
             inv.HashKey = "ejCk326UnaZWKisg";
-            //5. 執行API的回傳結果(JSON)字串
+            //5. 執行API的回傳結果(JSON)字串 
             string json = inv.post(invc);
-            //6. 解序列化，還原成物件使用
-            InvoiceCreateReturn obj = new InvoiceCreateReturn();
 
-            obj = JsonConvert.DeserializeObject<InvoiceCreateReturn>(json);
+
+            bool check = isJSON2(json);
+
             string temp = string.Empty;
-            temp = string.Format("開立發票結果<br> InvoiceDate={0}<br> InvoiceNumber={1}<br> RandomNumber={2}<br> RtnCode={3} <br> RtnCode={4} ", obj.InvoiceDate, obj.InvoiceNumber, obj.RandomNumber, obj.RtnCode, obj.RtnMsg);
+            if (check)   //判斷是不是json格式
+            {
+                //6. 解序列化，還原成物件使用
+                InvoiceCreateReturn obj = new InvoiceCreateReturn();
+
+                obj = JsonConvert.DeserializeObject<InvoiceCreateReturn>(json);
+
+                temp = string.Format("開立發票結果<br> InvoiceDate={0}<br> InvoiceNumber={1}<br> RandomNumber={2}<br> RtnCode={3} <br> RtnCode={4} ", obj.InvoiceDate, obj.InvoiceNumber, obj.RandomNumber, obj.RtnCode, obj.RtnMsg);
+
+
+            }
+            else
+            {
+                temp = json;
+
+
+            }
             Response.Write(temp);
         }
+
+            private static bool isJSON2(String str)
+        {
+            bool result = false;
+            try
+            {
+                Object obj = JObject.Parse(str);
+                result = true;
+            }
+            catch (Exception e)
+            {
+                result = false;
+            }
+            return result;
+        }
     }
-}
+    }

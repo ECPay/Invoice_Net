@@ -8,6 +8,7 @@ using Ecpay.EInvoice.Integration.Models;
 using Ecpay.EInvoice.Integration.Service;
 using Ecpay.EInvoice.Integration.Enumeration;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
 //延遲或觸發開立發票
 namespace DelayIssue
@@ -22,7 +23,7 @@ namespace DelayIssue
             invc.MerchantID = "2000132";//廠商編號
             invc.DelayFlag = DelayFlagEnum.NormalDelay;//延遲註記
             invc.RelateNumber = "ecPaytest" + new Random().Next(0, 99999).ToString();//商家自訂訂單編號
-            invc.CustomerID = "ttee11";//客戶代號
+            invc.CustomerID = "";//客戶代號
             invc.CustomerIdentifier = "";//統一編號            
             invc.CustomerName = "";//客戶名稱
             invc.CustomerAddr = "";//客戶地址
@@ -72,22 +73,49 @@ namespace DelayIssue
             //4. 設定歐付寶提供的 Key 和 IV
             inv.HashIV = "q9jcZX8Ib9LM8wYk";
             inv.HashKey = "ejCk326UnaZWKisg";
-            //5. 執行API的回傳結果(JSON)字串
+            //5. 執行API的回傳結果(JSON)字串 
             string json = inv.post(invc);
 
-            //6. 解序列化，還原成物件使用
-            InvoiceDelayReturn obj = new InvoiceDelayReturn();
-            obj = JsonConvert.DeserializeObject<InvoiceDelayReturn>(json);
 
-            /*資料顯示*/
-            string Result = string.Empty;
+            bool check = isJSON2(json);
 
-            Result = string.Format("延遲觸發開立發票結果:<br> OrderNumber = {0} <br> RtnCode={1} <br> RtnMsg={2}", obj.OrderNumber, obj.RtnCode, obj.RtnMsg);
-            Response.Write(Result);
+            string temp = string.Empty;
+
+            
+
+            if (check)   //判斷是不是json格式
+            {
+                //6. 解序列化，還原成物件使用
+                InvoiceCreateReturn obj = new InvoiceCreateReturn();
+
+                obj = JsonConvert.DeserializeObject<InvoiceCreateReturn>(json);
+
+                temp = string.Format("開立發票結果<br> InvoiceDate={0}<br> InvoiceNumber={1}<br> RandomNumber={2}<br> RtnCode={3} <br> RtnCode={4} ", obj.InvoiceDate, obj.InvoiceNumber, obj.RandomNumber, obj.RtnCode, obj.RtnMsg);
 
 
+            }
+            else
+            {
+                temp = json;
 
 
+            }
+            Response.Write(temp);
+        }
+
+        private static bool isJSON2(String str)
+        {
+            bool result = false;
+            try
+            {
+                Object obj = JObject.Parse(str);
+                result = true;
+            }
+            catch (Exception e)
+            {
+                result = false;
+            }
+            return result;
         }
     }
 }
