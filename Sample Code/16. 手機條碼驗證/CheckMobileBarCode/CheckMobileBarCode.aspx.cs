@@ -18,8 +18,8 @@ namespace CheckMobileBarCode
             MobileBarcode qinv = new MobileBarcode();
 
             qinv.MerchantID = "2000132";//廠商編號。
-            qinv.BarCode = "/6G X3LQ";
-
+            qinv.BarCode = "/6G+X3LQ";
+            qinv.BarCode = qinv.BarCode.Replace('+', ' '); //依API說明,把+號換成空白
             Invoice<MobileBarcode> inv = new Invoice<MobileBarcode>();
 
             inv.Environment = Ecpay.EInvoice.Integration.Enumeration.EnvironmentEnum.Stage;

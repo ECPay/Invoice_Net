@@ -32,7 +32,8 @@ namespace Issue
             invc.Donation = DonationEnum.No;//捐贈註記
             invc.LoveCode = "";//愛心碼
             invc.carruerType = CarruerTypeEnum.PhoneBarcode;//載具類別
-            invc.CarruerNum = "/6G X3LQ";
+            invc.CarruerNum = "/6G+X3LQ";
+            invc.CarruerNum = invc.CarruerNum.Replace('+', ' '); //依API說明,把+號換成空白
             //invc.TaxType = TaxTypeEnum.DutyFree;//課稅類別
             invc.SalesAmount = "300";//發票金額。含稅總金額。
             invc.InvoiceRemark = "(qwrrg)";//備註
