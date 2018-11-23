@@ -1,0 +1,455 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AllPay.EInvoice.Integration.Attributes.NeedEncodeAttribute" Collapsed="true">
+    <Position X="34.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Attributes\NeedEncodeAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AllPay.EInvoice.Integration.Attributes.NonProcessValueAttribute" Collapsed="true">
+    <Position X="27.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Attributes\NonProcessValueAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AllPay.EInvoice.Integration.Attributes.RequiredByAllowanceNotifyAttribute" Collapsed="true">
+    <Position X="25.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Attributes\RequiredByAllowanceNotifyAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AllPay.EInvoice.Integration.Attributes.RequiredByCarruerTypeNumFormatAttribute" Collapsed="true">
+    <Position X="29" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Attributes\RequiredByCarruerTypeNumFormatAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AllPay.EInvoice.Integration.Attributes.RequiredByDonationAttribute" Collapsed="true">
+    <Position X="30.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Attributes\RequiredByDonationAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AllPay.EInvoice.Integration.Attributes.RequiredByNotifyPhoneOrEmailAttribute" Collapsed="true">
+    <Position X="32.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Attributes\RequiredByNotifyPhoneOrEmailAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AllPay.EInvoice.Integration.Attributes.RequiredByPhoneOrEmailAttribute" Collapsed="true">
+    <Position X="34.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Attributes\RequiredByPhoneOrEmailAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AllPay.EInvoice.Integration.Attributes.RequiredByPrintFlagAttribute" Collapsed="true">
+    <Position X="25.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Attributes\RequiredByPrintFlagAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AllPay.EInvoice.Integration.Attributes.RequiredByTaxTypeAttribute" Collapsed="true">
+    <Position X="27.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Attributes\RequiredByTaxTypeAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AllPay.EInvoice.Integration.Attributes.TextAttribute" Collapsed="true">
+    <Position X="30.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Attributes\TextAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AllPay.EInvoice.Integration.RequiredByCarruerTypeAttribute" Collapsed="true">
+    <Position X="27.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Attributes\RequiredByCarruerTypeAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AllPay.EInvoice.Integration.EventHandlers.ItemCollectionEventArgs" Collapsed="true">
+    <Position X="30.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>EventHandlers\ItemCollectionEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AllPay.EInvoice.Integration.Models.Allowance" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEIAGgDBAoCAAAMAAAQEQAQIDAAAgQBACAAAAAABA=</HashCode>
+      <FileName>Models\Allowance.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AllPay.EInvoice.Integration.Models.AllowanceInvalid" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="27.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACCgAAAgAAIAMAAAAAQCAAAAAAAABAAAAAACAAA=</HashCode>
+      <FileName>Models\AllowanceInvalid.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AllPay.EInvoice.Integration.Models.AllowanceInvalidReturn" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\AllowanceInvalidReturn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AllPay.EInvoice.Integration.Models.AllowanceReturn" Collapsed="true">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAABAAEAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Models\AllowanceReturn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AllPay.EInvoice.Integration.Models.ApiUrlModel" Collapsed="true">
+    <Position X="34.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ApiUrlModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AllPay.EInvoice.Integration.Models.ApiUrl" Collapsed="true">
+    <Position X="29" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAASAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Models\ApiUrlModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AllPay.EInvoice.Integration.Models.InvoiceCreate" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="36" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>CAAEIIGyTBUsGkAUMqBMAAjQUAEQASAQAAwQAAQEAEA=</HashCode>
+      <FileName>Models\InvoiceCreate.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AllPay.EInvoice.Integration.Models.InvoiceCreateReturn" Collapsed="true">
+    <Position X="18.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAACAAAAAAAAAAAQ=</HashCode>
+      <FileName>Models\InvoiceCreateReturn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AllPay.EInvoice.Integration.Models.InvoiceDelay" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="30.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEIhGyTBUoGkAUMqhEACjQUAgaASAQAA4YgAQECEA=</HashCode>
+      <FileName>Models\InvoiceDelay.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AllPay.EInvoice.Integration.Models.InvoiceDelayReturn" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\InvoiceDelayReturn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AllPay.EInvoice.Integration.Models.InvoiceInvalid" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="32.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEACgAAAgAAIAMgAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\InvoiceInvalid.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AllPay.EInvoice.Integration.Models.InvoiceInvalidReturn" Collapsed="true">
+    <Position X="9.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\InvoiceInvalidReturn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AllPay.EInvoice.Integration.Models.InvoiceNotify" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="34.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAgCCgAAAgAAAQMAAAAASgAAAAgAhABABAYAACABA=</HashCode>
+      <FileName>Models\InvoiceNotify.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AllPay.EInvoice.Integration.Models.InvoiceNotifyReturn" Collapsed="true">
+    <Position X="14" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\InvoiceNotifyReturn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AllPay.EInvoice.Integration.Models.InvoiceTrigger" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgCgAAAgAAAAMAgAAAAAAAAKAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\InvoiceTrigger.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AllPay.EInvoice.Integration.Models.InvoiceTriggerReturn" Collapsed="true">
+    <Position X="20.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\InvoiceTriggerReturn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AllPay.EInvoice.Integration.Models.Item" Collapsed="true">
+    <Position X="27.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEIAEgDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ItemCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AllPay.EInvoice.Integration.Models.ItemCollection" Collapsed="true">
+    <Position X="29" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACIEKEGgDAAAAQAAAAAAhAAAgAAAAAAgKAAAAIBEAAA=</HashCode>
+      <FileName>Models\ItemCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AllPay.EInvoice.Integration.Models.QueryAllowance" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="29" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACCgAAAgAAAAMAAAAAQAAAAAAAAABAAAAAACAAA=</HashCode>
+      <FileName>Models\QueryAllowance.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AllPay.EInvoice.Integration.Models.QueryAllowanceInvalid" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="30.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACCgAAAgAAAAMAAAAAQAAAAAAAAABAAAAAACAAA=</HashCode>
+      <FileName>Models\QueryAllowanceInvalid.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AllPay.EInvoice.Integration.Models.QueryAllowanceInvalidReturn" Collapsed="true">
+    <Position X="11.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAICQAAgAAAAAAAAEACQAABAAAAAQAA=</HashCode>
+      <FileName>Models\QueryAllowanceInvalidReturn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AllPay.EInvoice.Integration.Models.QueryAllowanceReturn" Collapsed="true">
+    <Position X="16.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AiAEIEEhHAAAAKAAEAEAAAAAIQAAEABECAAAgACABAg=</HashCode>
+      <FileName>Models\QueryAllowanceReturn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AllPay.EInvoice.Integration.Models.QueryInvoice" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="32.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEEACgAAAgAAAAMgAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\QueryInvoice.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AllPay.EInvoice.Integration.Models.QueryInvoiceInvalid" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="34.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAACgAAAgAAAAMAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\QueryInvoiceInvalid.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AllPay.EInvoice.Integration.Models.QueryInvoiceInvalidReturn" Collapsed="true">
+    <Position X="23" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAIAAEAAAAgAAAAQAIAAAQAAAAAAAEA=</HashCode>
+      <FileName>Models\QueryInvoiceInvalidReturn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AllPay.EInvoice.Integration.Models.QueryInvoiceReturn" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CABUICkyHEgIACCgAAEAAAEQEQAAAIgABAgAQCIAIAA=</HashCode>
+      <FileName>Models\QueryInvoiceReturn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AllPay.EInvoice.Integration.Models.ReturnBase" Collapsed="true">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Models\ReturnBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AllPay.EInvoice.Integration.Resource.ApiUrl_Prod_Resource" Collapsed="true">
+    <Position X="30.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>iEAAEAAgAAAAAAAAAAABMAAAAQAAAADAACAAAEAEAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AllPay.EInvoice.Integration.Resource.ApiUrl_Stage_Resource" Collapsed="true">
+    <Position X="32.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>iEAAEAAgAAAAAAAAAAABMAAAAQAAAADAACAAAEAEAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AllPay.EInvoice.Integration.Service.EnumExtender" Collapsed="true">
+    <Position X="25.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service\EnumExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AllPay.EInvoice.Integration.Service.Invoice&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="27.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAACAGCEAgAQAABAQAAAAAAAIEgAAEgAAJABAAA=</HashCode>
+      <FileName>Service\Invoice.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AllPay.EInvoice.Integration.Service.MD5Encoder" Collapsed="true">
+    <Position X="32.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Service\MD5Encoder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AllPay.EInvoice.Integration.Service.ServerValidator" Collapsed="true">
+    <Position X="29" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service\ServerValidator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="AllPay.EInvoice.Integration.Interface.Iinvoice" Collapsed="true">
+    <Position X="25.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Interface\Iinvoice.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="AllPay.EInvoice.Integration.Enumeration.AllowanceNotifyEnum" Collapsed="true">
+    <Position X="25.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAQAAAAAAAAAAAAIAAAAEAAAA=</HashCode>
+      <FileName>Enumeration\AllowanceNotifyEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AllPay.EInvoice.Integration.Enumeration.CarruerTypeEnum" Collapsed="true">
+    <Position X="27.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAEAAAAAAAAAAIAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Enumeration\CarruerTypeEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AllPay.EInvoice.Integration.Enumeration.CustomsClearanceMarkEnum" Collapsed="true">
+    <Position X="29" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAACAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Enumeration\CustomsClearanceMarkEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AllPay.EInvoice.Integration.Enumeration.DelayFlagEnum" Collapsed="true">
+    <Position X="30.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enumeration\DelayFlagEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AllPay.EInvoice.Integration.Enumeration.DonationEnum" Collapsed="true">
+    <Position X="32.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enumeration\DonationEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AllPay.EInvoice.Integration.Enumeration.EnvironmentEnum" Collapsed="true">
+    <Position X="34.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAEAgAAAAAAAA=</HashCode>
+      <FileName>Enumeration\EnvironmentEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AllPay.EInvoice.Integration.Enumeration.HttpMethodEnum" Collapsed="true">
+    <Position X="25.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enumeration\HttpMethodEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AllPay.EInvoice.Integration.Enumeration.InvoiceMethodEnum" Collapsed="true">
+    <Position X="27.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>iEAAEAAgAAAAAAAAAAAAIAAAAAAAAADAACAAAEAEAAA=</HashCode>
+      <FileName>Enumeration\InvoiceMethodEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AllPay.EInvoice.Integration.Enumeration.InvoiceNotifyEnum" Collapsed="true">
+    <Position X="29" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAACAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enumeration\InvoiceNotifyEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AllPay.EInvoice.Integration.Enumeration.InvoiceTagEnum" Collapsed="true">
+    <Position X="30.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAEAAAABAAAAAAAAAAAAAAAEAAAAAAAAAEAAA=</HashCode>
+      <FileName>Enumeration\InvoiceTagEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AllPay.EInvoice.Integration.Enumeration.NotifiedObjectEnum" Collapsed="true">
+    <Position X="32.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Enumeration\NotifiedObjectEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AllPay.EInvoice.Integration.Enumeration.PayTypeEnum" Collapsed="true">
+    <Position X="34.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAABAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Enumeration\PayTypeEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AllPay.EInvoice.Integration.Enumeration.PrintEnum" Collapsed="true">
+    <Position X="25.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enumeration\PrintEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AllPay.EInvoice.Integration.Enumeration.TaxTypeEnum" Collapsed="true">
+    <Position X="27.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAIBAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enumeration\TaxTypeEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AllPay.EInvoice.Integration.Enumeration.TheWordTypeEnum" Collapsed="true">
+    <Position X="29" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enumeration\TheWordTypeEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AllPay.EInvoice.Integration.Enumeration.VatEnum" Collapsed="true">
+    <Position X="30.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enumeration\VatEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="AllPay.EInvoice.Integration.EventHandlers.ItemCollectionEventHandler" Collapsed="true">
+    <Position X="25.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EventHandlers\ItemCollectionEvent.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="微軟正黑體" Size="9" />
+</ClassDiagram>

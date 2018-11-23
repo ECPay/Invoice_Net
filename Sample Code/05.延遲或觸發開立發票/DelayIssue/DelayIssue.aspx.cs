@@ -34,7 +34,7 @@ namespace DelayIssue
             invc.Donation = DonationEnum.No;//捐贈註記
             //invc.LoveCode = "930";//愛心碼
             invc.carruerType = CarruerTypeEnum.PhoneBarcode;//載具類別
-            invc.CarruerNum = "/6G X3LQ";//載具編號
+            invc.CarruerNum = "/6G+X3LQ";//載具編號
             invc.CarruerNum = invc.CarruerNum.Replace('+', ' '); //依API說明,把+號換成空白
             invc.TaxType = TaxTypeEnum.DutyFree;//課稅類別
             invc.SalesAmount = "200";//發票金額。含稅總金額

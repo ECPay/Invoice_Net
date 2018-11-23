@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{488F085E-3538-4590-B17D-6A1DDC648CAA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Ecpay.EInvoice.Integration</RootNamespace>
+    <AssemblyName>Ecpay.EInvoice.Integration</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.11.0.2\lib\net40\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Caching" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Attributes\NeedDetailValidAttribute.cs" />
+    <Compile Include="Attributes\NeedEncodeAttribute.cs" />
+    <Compile Include="Attributes\NonProcessValueAttribute.cs" />
+    <Compile Include="Attributes\RequiredByAllowanceNotifyAttribute.cs" />
+    <Compile Include="Attributes\RequiredByCarruerTypeAttribute.cs" />
+    <Compile Include="Attributes\RequiredByCarruerTypeNumFormatAttribute.cs" />
+    <Compile Include="Attributes\RequiredByDonationAttribute.cs" />
+    <Compile Include="Attributes\RequiredByItemCollectionAttribute.cs" />
+    <Compile Include="Attributes\RequiredByNotifyPhoneOrEmailAttribute.cs" />
+    <Compile Include="Attributes\RequiredByPhoneOrEmailAttribute.cs" />
+    <Compile Include="Attributes\RequiredByPrintFlagAttribute.cs" />
+    <Compile Include="Attributes\RequiredByTaxTypeAttribute.cs" />
+    <Compile Include="Attributes\TextAttribute.cs" />
+    <Compile Include="Enumeration\AllowanceNotifyEnum.cs" />
+    <Compile Include="Enumeration\CarruerTypeEnum.cs" />
+    <Compile Include="Enumeration\CustomsClearanceMarkEnum.cs" />
+    <Compile Include="Enumeration\DelayFlagEnum.cs" />
+    <Compile Include="Enumeration\DonationEnum.cs" />
+    <Compile Include="Enumeration\EnvironmentEnum.cs" />
+    <Compile Include="Enumeration\InvoiceNotifyEnum.cs" />
+    <Compile Include="Enumeration\InvoiceTagEnum.cs" />
+    <Compile Include="Enumeration\NotifiedObjectEnum.cs" />
+    <Compile Include="Enumeration\PayTypeEnum.cs" />
+    <Compile Include="Enumeration\PrintEnum.cs" />
+    <Compile Include="Enumeration\TaxTypeEnum.cs" />
+    <Compile Include="Enumeration\TheWordTypeEnum.cs" />
+    <Compile Include="Enumeration\VatEnum.cs" />
+    <Compile Include="EventHandlers\ItemCollectionEvent.cs" />
+    <Compile Include="Models\AllowanceInvalidReturn.cs" />
+    <Compile Include="Models\AllowanceReturn.cs" />
+    <Compile Include="Models\InvoiceLoveCode.cs" />
+    <Compile Include="Models\MobileBarcode.cs" />
+    <Compile Include="Service\ApiUrlModel.cs" />
+    <Compile Include="Interface\Iinvoice.cs" />
+    <Compile Include="Models\InvoiceCreateReturn.cs" />
+    <Compile Include="Models\InvoiceDelayReturn.cs" />
+    <Compile Include="Models\InvoiceInvalidReturn.cs" />
+    <Compile Include="Models\InvoiceNotifyReturn.cs" />
+    <Compile Include="Models\InvoiceTriggerReturn.cs" />
+    <Compile Include="Models\ItemCollection.cs" />
+    <Compile Include="Models\QueryAllowanceInvalid.cs" />
+    <Compile Include="Models\QueryAllowanceInvalidReturn.cs" />
+    <Compile Include="Models\QueryAllowanceReturn.cs" />
+    <Compile Include="Models\QueryInvoiceInvalid.cs" />
+    <Compile Include="Models\QueryInvoiceInvalidReturn.cs" />
+    <Compile Include="Models\QueryInvoiceReturn.cs" />
+    <Compile Include="Models\ReturnBase.cs" />
+    <Compile Include="Resource\ApiUrl.Prod.Resource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ApiUrl.Prod.Resource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resource\ApiUrl.Stage.Resource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ApiUrl.Stage.Resource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resource\ApiUrl.Dev.Resource.Designer.cs">
+      <DependentUpon>ApiUrl.Dev.Resource.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Service\EnumExtensions.cs" />
+    <Compile Include="Interface\IApiUrlModel.cs" />
+    <Compile Include="Service\MD5Encoder.cs" />
+    <Compile Include="Service\ServerValidator.cs" />
+    <Compile Include="Service\Invoice.cs" />
+    <Compile Include="Enumeration\HttpMethodEnum.cs" />
+    <Compile Include="Enumeration\InvoiceMethodEnum.cs" />
+    <Compile Include="Models\Allowance.cs" />
+    <Compile Include="Models\AllowanceInvalid.cs" />
+    <Compile Include="Models\InvoiceDelay.cs" />
+    <Compile Include="Models\InvoiceNotify.cs" />
+    <Compile Include="Models\InvoiceTrigger.cs" />
+    <Compile Include="Models\QueryAllowance.cs" />
+    <Compile Include="Models\InvoiceInvalid.cs" />
+    <Compile Include="Models\InvoiceCreate.cs" />
+    <Compile Include="Models\QueryInvoice.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Diagram\ClassDiagram1.cd" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resource\ApiUrl.Prod.Resource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ApiUrl.Prod.Resource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\ApiUrl.Stage.Resource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ApiUrl.Stage.Resource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\ApiUrl.Dev.Resource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ApiUrl.Dev.Resource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
