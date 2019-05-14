@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.ComponentModel.DataAnnotations;
+using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Net;
@@ -187,7 +188,12 @@ namespace Ecpay.EInvoice.Integration.Service
 
                 try
                 {
-                    if (item.PropertyType.IsEnum) //Enum
+                    if (item.PropertyType == typeof(decimal)) //decimal
+                    {
+                       var strFormatAttr = item.GetCustomAttributes(typeof(StringFormatAttribute), true).FirstOrDefault() as StringFormatAttribute;
+                       value = ((decimal)item.GetValue(obj, null)).ToString(strFormatAttr?.Format,CultureInfo.InvariantCulture);
+                    }
+                    else if (item.PropertyType.IsEnum) //Enum
                     {
                         int enumVlue = (int)Enum.Parse(item.PropertyType, item.GetValue(obj, null).ToString());
                         value = enumVlue.ToString();

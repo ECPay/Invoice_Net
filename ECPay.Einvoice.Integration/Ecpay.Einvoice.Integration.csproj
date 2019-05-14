@@ -49,6 +49,7 @@
   <ItemGroup>
     <Compile Include="Attributes\NeedDetailValidAttribute.cs" />
     <Compile Include="Attributes\NeedEncodeAttribute.cs" />
+    <Compile Include="Attributes\StringFormatAttribute.cs" />
     <Compile Include="Attributes\NonProcessValueAttribute.cs" />
     <Compile Include="Attributes\RequiredByAllowanceNotifyAttribute.cs" />
     <Compile Include="Attributes\RequiredByCarruerTypeAttribute.cs" />

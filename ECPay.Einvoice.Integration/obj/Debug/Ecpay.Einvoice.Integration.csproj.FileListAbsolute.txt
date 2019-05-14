@@ -9,3 +9,14 @@ D:\work\app sample\ECPay.Einvoice.Integration\bin\Debug\Newtonsoft.Json.dll
 D:\work\app sample\ECPay.Einvoice.Integration\bin\Debug\Newtonsoft.Json.xml
 D:\work\app sample\ECPay.Einvoice.Integration\obj\Debug\Ecpay.EInvoice.Integration.dll
 D:\work\app sample\ECPay.Einvoice.Integration\obj\Debug\Ecpay.EInvoice.Integration.pdb
+C:\Git\Invoice_Net\ECPay.Einvoice.Integration\bin\Debug\Ecpay.EInvoice.Integration.dll
+C:\Git\Invoice_Net\ECPay.Einvoice.Integration\bin\Debug\Ecpay.EInvoice.Integration.pdb
+C:\Git\Invoice_Net\ECPay.Einvoice.Integration\bin\Debug\Newtonsoft.Json.dll
+C:\Git\Invoice_Net\ECPay.Einvoice.Integration\bin\Debug\Newtonsoft.Json.xml
+C:\Git\Invoice_Net\ECPay.Einvoice.Integration\obj\Debug\Ecpay.Einvoice.Integration.csprojResolveAssemblyReference.cache
+C:\Git\Invoice_Net\ECPay.Einvoice.Integration\obj\Debug\Ecpay.EInvoice.Integration.Resource.ApiUrl.Prod.Resource.resources
+C:\Git\Invoice_Net\ECPay.Einvoice.Integration\obj\Debug\Ecpay.EInvoice.Integration.Resource.ApiUrl.Stage.Resource.resources
+C:\Git\Invoice_Net\ECPay.Einvoice.Integration\obj\Debug\Ecpay.EInvoice.Integration.Resource.ApiUrl.Dev.Resource.resources
+C:\Git\Invoice_Net\ECPay.Einvoice.Integration\obj\Debug\Ecpay.Einvoice.Integration.csproj.GenerateResource.Cache
+C:\Git\Invoice_Net\ECPay.Einvoice.Integration\obj\Debug\Ecpay.EInvoice.Integration.dll
+C:\Git\Invoice_Net\ECPay.Einvoice.Integration\obj\Debug\Ecpay.EInvoice.Integration.pdb

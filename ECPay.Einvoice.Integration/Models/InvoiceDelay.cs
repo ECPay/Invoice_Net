@@ -104,7 +104,6 @@ namespace Ecpay.EInvoice.Integration.Models
         ///                                          ->預設最大長度為30碼
         /// </summary>
         [StringLength(60, ErrorMessage = "{0} max length as {1}.")]
-        [RegularExpression(@"^[0-9a-zA-Z\u0391-\uFFE5]+$", ErrorMessage = "{0} is incorrect format.")]
         [RequiredByPrintFlag(ErrorMessage = "If PrintFlag equal to Yes , then {0} is required.")]
         [NeedEncode]
         public string CustomerName { get { return _CustomerName; } set { _CustomerName = value; } }

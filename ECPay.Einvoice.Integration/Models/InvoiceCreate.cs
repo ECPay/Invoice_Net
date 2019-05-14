@@ -28,7 +28,7 @@ namespace Ecpay.EInvoice.Integration.Models
         private CarruerTypeEnum _CarruerType = CarruerTypeEnum.None;
         private string _CarruerNum = string.Empty;
         private TaxTypeEnum _TaxType = TaxTypeEnum.Taxable;
-        private string _SalesAmount = string.Empty;
+        private decimal _SalesAmount;
         private string _InvoiceRemark = string.Empty;
         private TheWordTypeEnum _InvType = TheWordTypeEnum.Normal;
         private VatEnum _vat = VatEnum.Yes;
@@ -62,6 +62,12 @@ namespace Ecpay.EInvoice.Integration.Models
         /// </summary>
         internal int TimeStamp { get { return _TimeStamp; } private set { _TimeStamp = value; } }
 
+        public void SetTimeStamp(DateTime dateTime)
+        {
+            _TimeStamp = Convert.ToInt32((dateTime.ToUniversalTime().Ticks - 621355968000000000) / 10000000);
+        }
+
+
         /// <summary>
         /// 商家自訂訂單編號(必填) ‧預設不可重複 ‧預設最大長度為30碼
         /// </summary>
@@ -94,7 +100,6 @@ namespace Ecpay.EInvoice.Integration.Models
         ///                                          ->預設最大長度為30碼
         /// </summary>
         [StringLength(60, ErrorMessage = "{0} max length as {1}.")]
-        [RegularExpression(@"^[0-9a-zA-Z\u0391-\uFFE5]+$", ErrorMessage = "{0} is incorrect format.")]
         [RequiredByPrintFlag(ErrorMessage = "If PrintFlag equal to Yes , then {0} is required.")]
         [NeedEncode]
         public string CustomerName { get { return _CustomerName; } set { _CustomerName = value; } }
@@ -204,8 +209,8 @@ namespace Ecpay.EInvoice.Integration.Models
         /// 發票金額(必填)    ‧含稅總金額
         /// </summary>
         [Required(ErrorMessage = "{0} is required.")]
-        [RegularExpression("^[0-9]+$", ErrorMessage = "{0} is incorrect format.")]
-        public string SalesAmount { get { return _SalesAmount; } set { _SalesAmount = value; } }
+        [StringFormat("F0")]
+        public decimal SalesAmount { get { return _SalesAmount; } set { _SalesAmount = value; } }
 
         /// <summary>
         /// 備註(選填)
