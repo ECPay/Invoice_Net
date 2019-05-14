@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
+using System.Globalization;
 using System.Linq.Expressions;
 using System.Reflection;
 using Ecpay.EInvoice.Integration.Enumeration;
@@ -24,7 +25,7 @@ namespace Ecpay.EInvoice.Integration.Models
         /// 商品訂購數量。
         /// </summary>
         //[Range(1, int.MaxValue, ErrorMessage = "{0} is out of range. ")]
-        public string ItemCount { get; set; }
+        public int ItemCount { get; set; }
 
         /// <summary>
         /// 商品單位(當 InvoiceMark=Yes 時，則必填)
@@ -39,7 +40,7 @@ namespace Ecpay.EInvoice.Integration.Models
         /// </summary>
         [Required(ErrorMessage = "{0} is required.")]
         //[RegularExpression("^[0-9]+$", ErrorMessage = "{0} is incorrect format.")]
-        public string ItemPrice { get; set; }
+        public decimal ItemPrice { get; set; }
 
         /// <summary>
         /// 商品課稅別(當 InvoiceMark=Yes 時，則必填)。
@@ -52,7 +53,7 @@ namespace Ecpay.EInvoice.Integration.Models
         /// </summary>
         [Required(ErrorMessage = "{0} is required.")]
         //[RegularExpression("^[0-9]+$", ErrorMessage = "{0} is incorrect format.")]
-        public string ItemAmount { get; set; }
+        public decimal ItemAmount { get; set; }
 
         /// <summary>
         /// 商品項目的建構式。
@@ -239,10 +240,10 @@ namespace Ecpay.EInvoice.Integration.Models
                         invItemName += String.Format("{0}|", oItem.ItemName);
                         invItemCount += String.Format("{0}|", oItem.ItemCount);
                         invItemWord += String.Format("{0}|", oItem.ItemWord);
-                        invItemPrice += String.Format("{0}|", oItem.ItemPrice);
+                        invItemPrice += String.Format(CultureInfo.InvariantCulture,"{0:F1}|", oItem.ItemPrice);
                         //invItemTaxType += String.Format("{0}|", (oItem.ItemTaxType == TaxTypeEnum.Taxable ? String.Empty : ((int)oItem.ItemTaxType).ToString()));
                         invItemTaxType += String.Format("{0}|", oItem.ItemTaxType);
-                        invItemAmount += String.Format("{0}|", oItem.ItemAmount);
+                        invItemAmount += String.Format(CultureInfo.InvariantCulture, "{0:F1}|", oItem.ItemAmount);
                     }
                     // 電子發票
                     invItemName = invItemName.Substring(0, invItemName.Length - 1);

@@ -19,7 +19,7 @@ namespace Ecpay.EInvoice.Integration.Models
         private string _CustomerName = string.Empty;
         private string _NotifyMail = string.Empty;
         private string _NotifyPhone = string.Empty;
-        private string _AllowanceAmount = string.Empty;
+        private decimal _AllowanceAmount;
         private ItemCollection _Items;
 
         public Allowance()
@@ -48,6 +48,12 @@ namespace Ecpay.EInvoice.Integration.Models
         /// </summary>
         internal int TimeStamp { get { return _TimeStamp; } private set { _TimeStamp = value; } }
 
+        public void SetTimeStamp(DateTime dateTime)
+        {
+            _TimeStamp = Convert.ToInt32((dateTime.ToUniversalTime().Ticks - 621355968000000000) / 10000000);
+        }
+
+
         /// <summary>
         /// 發票號碼(必填)        ‧預設長度固定10碼
         /// </summary>
@@ -74,7 +80,6 @@ namespace Ecpay.EInvoice.Integration.Models
         ///                                          ->預設最大長度為30碼
         /// </summary>
         [StringLength(30, ErrorMessage = "{0} max length as {1}.")]
-        [RegularExpression(@"^[0-9a-zA-Z\u0391-\uFFE5]+$", ErrorMessage = "{0} is incorrect format.")]
         [NeedEncode]
         public string CustomerName { get { return _CustomerName; } set { _CustomerName = value; } }
 
@@ -104,8 +109,8 @@ namespace Ecpay.EInvoice.Integration.Models
         /// 折讓單總金額(必填)    ‧含稅總金額
         /// </summary>
         [Required(ErrorMessage = "{0} is required.")]
-        [RegularExpression("^[0-9]+$", ErrorMessage = "{0} is incorrect format.")]
-        public string AllowanceAmount { get { return _AllowanceAmount; } set { _AllowanceAmount = value; } }
+        [StringFormat("F0")]
+        public decimal AllowanceAmount { get { return _AllowanceAmount; } set { _AllowanceAmount = value; } }
 
         /// <summary>
         /// 商品名稱(自動產生)    ‧預設格式如下 名稱1 | 名稱2 | 名稱3 | … | 名稱n

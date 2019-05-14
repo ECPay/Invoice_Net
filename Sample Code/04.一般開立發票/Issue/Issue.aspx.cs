@@ -35,7 +35,7 @@ namespace Issue
             invc.CarruerNum = "/6G+X3LQ";
             invc.CarruerNum = invc.CarruerNum.Replace('+', ' '); //依API說明,把+號換成空白
             //invc.TaxType = TaxTypeEnum.DutyFree;//課稅類別
-            invc.SalesAmount = "300";//發票金額。含稅總金額。
+            invc.SalesAmount = 300;//發票金額。含稅總金額。
             invc.InvoiceRemark = "(qwrrg)";//備註
 
             invc.invType = TheWordTypeEnum.Normal;//發票字軌類別
@@ -48,21 +48,21 @@ namespace Issue
             invc.Items.Add(new Item()
             {
                 ItemName = "糧食",//商品名稱
-                ItemCount = "1",//商品數量
+                ItemCount = 1,//商品數量
                 ItemWord = "個",//單位
-                ItemPrice = "100.1",//商品單價
+                ItemPrice = 100.1m,//商品單價
                 //ItemTaxType  =TaxTypeEnum.DutyFree//商品課稅別
-                ItemAmount = "100.1",//總金額
+                ItemAmount = 100.1m,//總金額
 
 
             });
             invc.Items.Add(new Item()
             {
                 ItemName = "糧食",//商品名稱
-                ItemPrice = "200",//商品單價
-                ItemCount = "1",//商品數量
+                ItemPrice = 200,//商品單價
+                ItemCount = 1,//商品數量
                 ItemWord = "個",//單位
-                ItemAmount = "200",//總金額
+                ItemAmount = 200m,//總金額
                 //ItemTaxType  =TaxTypeEnum.DutyFree//商品課稅別
             });
 

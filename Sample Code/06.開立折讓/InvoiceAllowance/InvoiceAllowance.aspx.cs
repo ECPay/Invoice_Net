@@ -24,15 +24,15 @@ namespace InvoiceAllowance
             invc.CustomerName = "客戶名稱";//客戶名稱
             invc.NotifyPhone = "0912345678";//客戶手機號碼
             invc.NotifyMail = "";//客戶電子信箱
-            invc.AllowanceAmount = "10";//折讓單總金額(含稅總金額)。
+            invc.AllowanceAmount = 10;//折讓單總金額(含稅總金額)。
             //商品資訊的集合類別
             invc.Items.Add(new Item()
             {
                 ItemName = "糧食",//商品名稱
-                ItemPrice = "10",//商品單價
-                ItemCount = "1",//商品數量
+                ItemPrice = 10,//商品單價
+                ItemCount = 1,//商品數量
                 ItemWord = "個",//單位
-                ItemAmount = "10",//總金額
+                ItemAmount = 10,//總金額
                 //ItemTaxType  =TaxTypeEnum.DutyFree//商品課稅別
             });
             //2. 初始化發票Service物件

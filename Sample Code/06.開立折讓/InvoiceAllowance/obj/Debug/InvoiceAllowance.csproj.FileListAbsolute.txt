@@ -18,3 +18,10 @@ C:\Users\vicky.lan.ECPAY\Desktop\31.電子發票SDK\06.開立折讓\InvoiceAllow
 C:\Users\vicky.lan.ECPAY\Desktop\31.電子發票SDK\06.開立折讓\InvoiceAllowance\obj\Debug\InvoiceAllowance.csprojResolveAssemblyReference.cache
 C:\Users\vicky.lan.ECPAY\Desktop\31.電子發票SDK\06.開立折讓\InvoiceAllowance\obj\Debug\InvoiceAllowance.dll
 C:\Users\vicky.lan.ECPAY\Desktop\31.電子發票SDK\06.開立折讓\InvoiceAllowance\obj\Debug\InvoiceAllowance.pdb
+C:\Git\Invoice_Net\Sample Code\06.開立折讓\InvoiceAllowance\bin\InvoiceAllowance.dll.config
+C:\Git\Invoice_Net\Sample Code\06.開立折讓\InvoiceAllowance\bin\InvoiceAllowance.dll
+C:\Git\Invoice_Net\Sample Code\06.開立折讓\InvoiceAllowance\bin\InvoiceAllowance.pdb
+C:\Git\Invoice_Net\Sample Code\06.開立折讓\InvoiceAllowance\bin\Ecpay.EInvoice.Integration.dll
+C:\Git\Invoice_Net\Sample Code\06.開立折讓\InvoiceAllowance\obj\Debug\InvoiceAllowance.csprojResolveAssemblyReference.cache
+C:\Git\Invoice_Net\Sample Code\06.開立折讓\InvoiceAllowance\obj\Debug\InvoiceAllowance.dll
+C:\Git\Invoice_Net\Sample Code\06.開立折讓\InvoiceAllowance\obj\Debug\InvoiceAllowance.pdb
