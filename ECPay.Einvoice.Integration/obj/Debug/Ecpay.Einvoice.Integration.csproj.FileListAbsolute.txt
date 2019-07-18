@@ -1,11 +1,14 @@
-D:\work\app sample\ECPay.Einvoice.Integration\obj\Debug\Ecpay.Einvoice.Integration.csprojResolveAssemblyReference.cache
-D:\work\app sample\ECPay.Einvoice.Integration\obj\Debug\Ecpay.EInvoice.Integration.Resource.ApiUrl.Prod.Resource.resources
-D:\work\app sample\ECPay.Einvoice.Integration\obj\Debug\Ecpay.EInvoice.Integration.Resource.ApiUrl.Stage.Resource.resources
-D:\work\app sample\ECPay.Einvoice.Integration\obj\Debug\Ecpay.EInvoice.Integration.Resource.ApiUrl.Dev.Resource.resources
-D:\work\app sample\ECPay.Einvoice.Integration\obj\Debug\Ecpay.Einvoice.Integration.csproj.GenerateResource.Cache
-D:\work\app sample\ECPay.Einvoice.Integration\bin\Debug\Ecpay.EInvoice.Integration.dll
-D:\work\app sample\ECPay.Einvoice.Integration\bin\Debug\Ecpay.EInvoice.Integration.pdb
-D:\work\app sample\ECPay.Einvoice.Integration\bin\Debug\Newtonsoft.Json.dll
-D:\work\app sample\ECPay.Einvoice.Integration\bin\Debug\Newtonsoft.Json.xml
-D:\work\app sample\ECPay.Einvoice.Integration\obj\Debug\Ecpay.EInvoice.Integration.dll
-D:\work\app sample\ECPay.Einvoice.Integration\obj\Debug\Ecpay.EInvoice.Integration.pdb
+D:\EcPay\gw_code\source\AllPayEinvoiceIntegration\AllPay.Einvoice.Integration\bin\Debug\Ecpay.EInvoice.Integration.dll
+D:\EcPay\gw_code\source\AllPayEinvoiceIntegration\AllPay.Einvoice.Integration\bin\Debug\Ecpay.EInvoice.Integration.pdb
+D:\EcPay\gw_code\source\AllPayEinvoiceIntegration\AllPay.Einvoice.Integration\bin\Debug\Newtonsoft.Json.dll
+D:\EcPay\gw_code\source\AllPayEinvoiceIntegration\AllPay.Einvoice.Integration\bin\Debug\Newtonsoft.Json.xml
+D:\EcPay\gw_code\source\AllPayEinvoiceIntegration\AllPay.Einvoice.Integration\obj\Debug\Ecpay.EInvoice.Integration.Resource.ApiUrl.Prod.Resource.resources
+D:\EcPay\gw_code\source\AllPayEinvoiceIntegration\AllPay.Einvoice.Integration\obj\Debug\Ecpay.EInvoice.Integration.Resource.ApiUrl.Stage.Resource.resources
+D:\EcPay\gw_code\source\AllPayEinvoiceIntegration\AllPay.Einvoice.Integration\obj\Debug\Ecpay.EInvoice.Integration.Resource.ApiUrl.Dev.Resource.resources
+D:\EcPay\gw_code\source\AllPayEinvoiceIntegration\AllPay.Einvoice.Integration\obj\Debug\Ecpay.Einvoice.Integration.csproj.GenerateResource.cache
+D:\EcPay\gw_code\source\AllPayEinvoiceIntegration\AllPay.Einvoice.Integration\obj\Debug\Ecpay.EInvoice.Integration.dll
+D:\EcPay\gw_code\source\AllPayEinvoiceIntegration\AllPay.Einvoice.Integration\obj\Debug\Ecpay.EInvoice.Integration.pdb
+D:\EcPay\gw_code\source\AllPayEinvoiceIntegration\AllPay.Einvoice.Integration\obj\Debug\Ecpay.Einvoice.Integration.csprojAssemblyReference.cache
+D:\EcPay\gw_code\source\AllPayEinvoiceIntegration\AllPay.Einvoice.Integration\obj\Debug\Ecpay.EInvoice.Integration.Resource.ApiUrl.Beta.Resource.resources
+D:\EcPay\gw_code\source\AllPayEinvoiceIntegration\AllPay.Einvoice.Integration\obj\Debug\Ecpay.Einvoice.Integration.csproj.CoreCompileInputs.cache
+D:\EcPay\gw_code\source\AllPayEinvoiceIntegration\AllPay.Einvoice.Integration\obj\Debug\Ecpay.Einvoice.Integration.csproj.CopyComplete

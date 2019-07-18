@@ -278,7 +278,7 @@ namespace Ecpay.EInvoice.Integration.Models
         ///                       ‧若為觸發開立時 ->延遲天數須介於0至15天內
         /// </summary>
         [Required(ErrorMessage = "{0} is required.")]
-        [RegularExpression(@"^1?[0-5]{1}$", ErrorMessage = "{0} is incorrect format.")]
+        [RegularExpression(@"^([0-9]|1[0-5])$", ErrorMessage = "{0} is incorrect format.")]
         public string DelayDay { get { return _DelayDay; } set { _DelayDay = value; } }
 
         /// <summary>

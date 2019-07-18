@@ -133,13 +133,13 @@
     <value>https://einvoice.ecpay.com.tw/Invoice/Issue</value>
   </data>
   <data name="InvoiceDelay" xml:space="preserve">
-    <value>https://einvoice.ecpay.com.tw/Invoice/TriggerIssue</value>
+    <value>https://einvoice.ecpay.com.tw/Invoice/DelayIssue</value>
   </data>
   <data name="InvoiceInvalid" xml:space="preserve">
     <value>https://einvoice.ecpay.com.tw/Invoice/IssueInvalid</value>
   </data>
   <data name="InvoiceTrigger" xml:space="preserve">
-    <value>https://einvoice.ecpay.com.tw/Invoice/DelayIssue</value>
+    <value>https://einvoice.ecpay.com.tw/Invoice/TriggerIssue</value>
   </data>
   <data name="Notify" xml:space="preserve">
     <value>https://einvoice.ecpay.com.tw/Notify/InvoiceNotify</value>

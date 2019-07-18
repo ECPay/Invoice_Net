@@ -33,22 +33,25 @@ namespace Ecpay.EInvoice.Integration
 
             // 不可為 Null，但允許空字串。
             bool isValid = (oPropertyValue != null);
+            
+            //  #48356 同步修正為跟Einvoice API 同規則
             // 特殊驗證：當會員載具是歐付寶會員時時，客戶代號不可以為空值。
-            if (oPropertyName.Equals("CustomerID"))
-            {
-                object oNeedCheckedValue = null;
+            //if (oPropertyName.Equals("CustomerID"))
+            //{
+            //    object oNeedCheckedValue = null;
 
-                pdcProperties = TypeDescriptor.GetProperties(oSourceComponent);
+            //    pdcProperties = TypeDescriptor.GetProperties(oSourceComponent);
 
-                oNeedCheckedValue = pdcProperties.Find("carruerType", false).GetValue(oSourceComponent);
+            //    oNeedCheckedValue = pdcProperties.Find("carruerType", false).GetValue(oSourceComponent);
 
-                if (oNeedCheckedValue.Equals(CarruerTypeEnum.Member))
-                {
-                    return base.IsValid(oPropertyValue);
-                }
-            }
+            //    if (oNeedCheckedValue.Equals(CarruerTypeEnum.Member))
+            //    {
+            //        return base.IsValid(oPropertyValue);
+            //    }
+            //} else
+
             // 特殊驗證：當載具自然人憑證號碼或手機條碼時，載具編號不可以為空值。
-            else if (oPropertyName.Equals("CarruerNum"))
+            if (oPropertyName.Equals("CarruerNum"))
             {
                 object oNeedCheckedValue = null;
 

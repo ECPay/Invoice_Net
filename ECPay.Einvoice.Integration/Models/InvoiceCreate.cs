@@ -75,8 +75,8 @@ namespace Ecpay.EInvoice.Integration.Models
         ///                                          ->只接受英、數字與下底線格式
         /// </summary>
         [StringLength(20, ErrorMessage = "{0} max length as {1}.")]
-        [RegularExpression(@"^[0-9a-zA-Z_]+$", ErrorMessage = "{0} is incorrect format.")]
-        [RequiredByCarruerType(ErrorMessage = "If CarruerType equal to Member , then {0} is required.")]
+        //[RegularExpression(@"^[0-9a-zA-Z_]+$", ErrorMessage = "{0} is incorrect format.")]
+        //[RequiredByCarruerType(ErrorMessage = "If CarruerType equal to Member , then {0} is required.")]
         public string CustomerID { get { return _CustomerID; } set { _CustomerID = value; } }
 
         /// <summary>
@@ -94,8 +94,8 @@ namespace Ecpay.EInvoice.Integration.Models
         ///                                          ->預設最大長度為30碼
         /// </summary>
         [StringLength(60, ErrorMessage = "{0} max length as {1}.")]
-        [RegularExpression(@"^[0-9a-zA-Z\u0391-\uFFE5]+$", ErrorMessage = "{0} is incorrect format.")]
-        [RequiredByPrintFlag(ErrorMessage = "If PrintFlag equal to Yes , then {0} is required.")]
+        //[RegularExpression(@"^[0-9a-zA-Z\u0391-\uFFE5]+[\s]?[0-9a-zA-Z\u0391-\uFFE5]+$", ErrorMessage = "{0} is incorrect format.")]
+        //[RequiredByPrintFlag(ErrorMessage = "If PrintFlag equal to Yes , then {0} is required.")]
         [NeedEncode]
         public string CustomerName { get { return _CustomerName; } set { _CustomerName = value; } }
 
@@ -188,6 +188,7 @@ namespace Ecpay.EInvoice.Integration.Models
         ///                                                            ->格式為1碼斜線「/」加上由7碼加號、減號、句號、數字及大小寫字母組成
         /// </summary>
         [RequiredByCarruerTypeNumFormat(ErrorMessage = @"{0} is incorrect format.")]
+        [NeedReplaceAttribute]
         public string CarruerNum { get { return _CarruerNum; } set { _CarruerNum = value; } }
 
         /// <summary>
@@ -257,6 +258,13 @@ namespace Ecpay.EInvoice.Integration.Models
         /// </summary>
 
         internal string ItemAmount { get { return _Items.ItemAmount; } }
+
+        /// <summary>
+        /// 商品備註(自動產生)    ‧預設格式如下 備註1 | 備註2 | 備註3 | … | 備註n
+        ///                       ‧若含二筆或以上的商品備註時，則以「|」符號區隔
+        /// </summary>
+
+        internal string ItemRemark { get { return _Items.ItemRemark; } }
 
         /// <summary>
         /// 發票字軌類別(選填)  ‧固定給定下述預設值 ->若為一般稅額計算時，則VAL = 'Normal'

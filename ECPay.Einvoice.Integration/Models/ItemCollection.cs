@@ -55,6 +55,11 @@ namespace Ecpay.EInvoice.Integration.Models
         public string ItemAmount { get; set; }
 
         /// <summary>
+        /// 商品備註
+        /// </summary>
+        public string ItemRemark { get; set; }
+
+        /// <summary>
         /// 商品項目的建構式。
         /// </summary>
         public Item()
@@ -74,6 +79,7 @@ namespace Ecpay.EInvoice.Integration.Models
         internal string ItemPrice { get; private set; }
         internal string ItemTaxType { get; private set; }
         internal string ItemAmount { get; private set; }
+        internal string ItemRemark { get; private set; }
 
         /// <summary>
         /// 將物件加入至商品集合的結尾。
@@ -233,6 +239,7 @@ namespace Ecpay.EInvoice.Integration.Models
                     string invItemPrice = String.Empty;
                     string invItemTaxType = String.Empty;
                     string invItemAmount = String.Empty;
+                    string invItemRemark = String.Empty;
 
                     foreach (Item oItem in this)
                     {
@@ -243,6 +250,7 @@ namespace Ecpay.EInvoice.Integration.Models
                         //invItemTaxType += String.Format("{0}|", (oItem.ItemTaxType == TaxTypeEnum.Taxable ? String.Empty : ((int)oItem.ItemTaxType).ToString()));
                         invItemTaxType += String.Format("{0}|", oItem.ItemTaxType);
                         invItemAmount += String.Format("{0}|", oItem.ItemAmount);
+                        invItemRemark += String.Format("{0}|", oItem.ItemRemark);
                     }
                     // 電子發票
                     invItemName = invItemName.Substring(0, invItemName.Length - 1);
@@ -251,6 +259,7 @@ namespace Ecpay.EInvoice.Integration.Models
                     invItemPrice = invItemPrice.Substring(0, invItemPrice.Length - 1);
                     invItemTaxType = (invItemTaxType.Length == this.Count ? String.Empty : invItemTaxType.Substring(0, invItemTaxType.Length - 1));
                     invItemAmount = invItemAmount.Substring(0, invItemAmount.Length - 1);
+                    invItemRemark = invItemRemark.Substring(0, invItemRemark.Length - 1);
 
                     this.ItemName = invItemName;
                     this.ItemCount = invItemCount;
@@ -258,6 +267,7 @@ namespace Ecpay.EInvoice.Integration.Models
                     this.ItemPrice = invItemPrice;
                     this.ItemTaxType = invItemTaxType;
                     this.ItemAmount = invItemAmount;
+                    this.ItemRemark = invItemRemark;
                 }
             }
         }

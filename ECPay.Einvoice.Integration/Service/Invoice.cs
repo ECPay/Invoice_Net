@@ -193,7 +193,7 @@ namespace Ecpay.EInvoice.Integration.Service
                         value = enumVlue.ToString();
                     }
                     else if (item.PropertyType.IsClass && item.PropertyType.IsSerializable) //String
-                        value = (string)item.GetValue(obj, null);
+                        value = (string)item.GetValue(obj, null) ?? "";
                     else if (item.PropertyType.IsValueType && item.PropertyType.IsSerializable && !item.PropertyType.IsEnum) //Int
                         value = item.GetValue(obj, null).ToString();
                     //else if (item.PropertyType.IsGenericType && typeof(ICollection<>).IsAssignableFrom(item.PropertyType.GetGenericTypeDefinition()) ||
@@ -211,6 +211,11 @@ namespace Ecpay.EInvoice.Integration.Service
                 attr = item.GetCustomAttributes(typeof(NeedEncodeAttribute), true).FirstOrDefault();
                 if (attr != null)
                     value = HttpUtility.UrlEncode(value);
+
+                // 特定 Attribute 需要Replace
+                attr = item.GetCustomAttributes(typeof(NeedReplaceAttribute), true).FirstOrDefault();
+                if (attr != null)
+                    value = value.ToString().Replace('+', ' ');
 
                 if (string.IsNullOrEmpty(_parameters))
                     _parameters = String.Format("{0}={1}", item.Name, value);
@@ -306,12 +311,12 @@ namespace Ecpay.EInvoice.Integration.Service
             byte[] byContent = Encoding.UTF8.GetBytes(parameters);
 
             //saveLog("實際字串:" + parameters);
+            ServicePointManager.ServerCertificateValidationCallback = new RemoteCertificateValidationCallback(CheckValidationResult);
+            ServicePointManager.SecurityProtocol = (SecurityProtocolType)3072;// SecurityProtocolType.Tls1.2;
 
             WebRequest webRequest = WebRequest.Create(apiURL);
             {
                 webRequest.Credentials = CredentialCache.DefaultCredentials;
-                ServicePointManager.ServerCertificateValidationCallback = new RemoteCertificateValidationCallback(CheckValidationResult);
-                ServicePointManager.SecurityProtocol = (SecurityProtocolType)3072;// SecurityProtocolType.Tls1.2;
 
                 webRequest.ContentType = "application/x-www-form-urlencoded";
                 webRequest.Method = "POST";

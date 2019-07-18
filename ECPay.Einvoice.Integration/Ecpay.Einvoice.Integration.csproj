@@ -31,8 +31,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>packages\Newtonsoft.Json.11.0.2\lib\net40\Newtonsoft.Json.dll</HintPath>
+    <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\net40\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
@@ -49,6 +49,7 @@
   <ItemGroup>
     <Compile Include="Attributes\NeedDetailValidAttribute.cs" />
     <Compile Include="Attributes\NeedEncodeAttribute.cs" />
+    <Compile Include="Attributes\NeedReplaceAttribute.cs" />
     <Compile Include="Attributes\NonProcessValueAttribute.cs" />
     <Compile Include="Attributes\RequiredByAllowanceNotifyAttribute.cs" />
     <Compile Include="Attributes\RequiredByCarruerTypeAttribute.cs" />
@@ -79,6 +80,11 @@
     <Compile Include="Models\AllowanceReturn.cs" />
     <Compile Include="Models\InvoiceLoveCode.cs" />
     <Compile Include="Models\MobileBarcode.cs" />
+    <Compile Include="Resource\ApiUrl.Beta.Resource.Designer.cs">
+      <DependentUpon>ApiUrl.Beta.Resource.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
     <Compile Include="Service\ApiUrlModel.cs" />
     <Compile Include="Interface\Iinvoice.cs" />
     <Compile Include="Models\InvoiceCreateReturn.cs" />
@@ -144,9 +150,10 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>ApiUrl.Dev.Resource.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
-    <WCFMetadata Include="Service References\" />
+    <EmbeddedResource Include="Resource\ApiUrl.Beta.Resource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ApiUrl.Beta.Resource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

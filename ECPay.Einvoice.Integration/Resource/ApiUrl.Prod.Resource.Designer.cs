@@ -106,7 +106,7 @@ namespace Ecpay.EInvoice.Integration.Resource {
         }
         
         /// <summary>
-        ///   查詢類似 https://einvoice.ecpay.com.tw/Invoice/TriggerIssue 的當地語系化字串。
+        ///   查詢類似 https://einvoice.ecpay.com.tw/Invoice/DelayIssue 的當地語系化字串。
         /// </summary>
         internal static string InvoiceDelay {
             get {
@@ -124,7 +124,7 @@ namespace Ecpay.EInvoice.Integration.Resource {
         }
         
         /// <summary>
-        ///   查詢類似 https://einvoice.ecpay.com.tw/Invoice/DelayIssue 的當地語系化字串。
+        ///   查詢類似 https://einvoice.ecpay.com.tw/Invoice/TriggerIssue 的當地語系化字串。
         /// </summary>
         internal static string InvoiceTrigger {
             get {

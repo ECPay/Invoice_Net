@@ -133,13 +133,13 @@
     <value>http://deveinvoice.ecpay.com.tw:12032/Invoice/Issue</value>
   </data>
   <data name="InvoiceDelay" xml:space="preserve">
-    <value>http://deveinvoice.ecpay.com.tw:12032/Invoice/TriggerIssue</value>
+    <value>http://deveinvoice.ecpay.com.tw:12032/Invoice/DelayIssue</value>
   </data>
   <data name="InvoiceInvalid" xml:space="preserve">
     <value>http://deveinvoice.ecpay.com.tw:12032/Invoice/IssueInvalid</value>
   </data>
   <data name="InvoiceTrigger" xml:space="preserve">
-    <value>http://deveinvoice.ecpay.com.tw:12032/Invoice/DelayIssue</value>
+    <value>http://deveinvoice.ecpay.com.tw:12032/Invoice/TriggerIssue</value>
   </data>
   <data name="Notify" xml:space="preserve">
     <value>http://deveinvoice.ecpay.com.tw:12032/Notify/InvoiceNotify</value>
