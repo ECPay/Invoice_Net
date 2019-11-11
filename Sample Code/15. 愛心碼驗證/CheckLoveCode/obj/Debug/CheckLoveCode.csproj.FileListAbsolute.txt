@@ -8,3 +8,8 @@ D:\ECgithub\Invoice_Net\Sample Code\15. 愛心碼驗證\CheckLoveCode\bin\CheckL
 D:\ECgithub\Invoice_Net\Sample Code\15. 愛心碼驗證\CheckLoveCode\obj\Debug\CheckLoveCode.csprojResolveAssemblyReference.cache
 D:\ECgithub\Invoice_Net\Sample Code\15. 愛心碼驗證\CheckLoveCode\obj\Debug\CheckLoveCode.dll
 D:\ECgithub\Invoice_Net\Sample Code\15. 愛心碼驗證\CheckLoveCode\obj\Debug\CheckLoveCode.pdb
+C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\15. 愛心碼驗證\CheckLoveCode\bin\CheckLoveCode.dll
+C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\15. 愛心碼驗證\CheckLoveCode\bin\CheckLoveCode.pdb
+C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\15. 愛心碼驗證\CheckLoveCode\obj\Debug\CheckLoveCode.csprojResolveAssemblyReference.cache
+C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\15. 愛心碼驗證\CheckLoveCode\obj\Debug\CheckLoveCode.dll
+C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\15. 愛心碼驗證\CheckLoveCode\obj\Debug\CheckLoveCode.pdb

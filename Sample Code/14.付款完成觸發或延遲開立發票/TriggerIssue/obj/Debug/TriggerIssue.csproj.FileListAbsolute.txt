@@ -18,3 +18,8 @@ C:\Users\vicky.lan.ECPAY\Desktop\31.電子發票SDK\14.付款完成觸發或延�
 C:\Users\vicky.lan.ECPAY\Desktop\31.電子發票SDK\14.付款完成觸發或延遲開立發票\TriggerIssue\obj\Debug\TriggerIssue.csprojResolveAssemblyReference.cache
 C:\Users\vicky.lan.ECPAY\Desktop\31.電子發票SDK\14.付款完成觸發或延遲開立發票\TriggerIssue\obj\Debug\TriggerIssue.dll
 C:\Users\vicky.lan.ECPAY\Desktop\31.電子發票SDK\14.付款完成觸發或延遲開立發票\TriggerIssue\obj\Debug\TriggerIssue.pdb
+C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\14.付款完成觸發或延遲開立發票\TriggerIssue\bin\TriggerIssue.dll
+C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\14.付款完成觸發或延遲開立發票\TriggerIssue\bin\TriggerIssue.pdb
+C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\14.付款完成觸發或延遲開立發票\TriggerIssue\obj\Debug\TriggerIssue.csprojResolveAssemblyReference.cache
+C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\14.付款完成觸發或延遲開立發票\TriggerIssue\obj\Debug\TriggerIssue.dll
+C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\14.付款完成觸發或延遲開立發票\TriggerIssue\obj\Debug\TriggerIssue.pdb

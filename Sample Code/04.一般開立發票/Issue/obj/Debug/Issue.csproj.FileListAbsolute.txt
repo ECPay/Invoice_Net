@@ -33,3 +33,8 @@ C:\Users\jay.chang\Desktop\新增資料夾 (2)\04.一般開立發票\Issue\bin\I
 C:\Users\jay.chang\Desktop\新增資料夾 (2)\04.一般開立發票\Issue\obj\Debug\Issue.csprojResolveAssemblyReference.cache
 C:\Users\jay.chang\Desktop\新增資料夾 (2)\04.一般開立發票\Issue\obj\Debug\Issue.dll
 C:\Users\jay.chang\Desktop\新增資料夾 (2)\04.一般開立發票\Issue\obj\Debug\Issue.pdb
+C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\04.一般開立發票\Issue\bin\Issue.dll
+C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\04.一般開立發票\Issue\bin\Issue.pdb
+C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\04.一般開立發票\Issue\obj\Debug\Issue.csprojResolveAssemblyReference.cache
+C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\04.一般開立發票\Issue\obj\Debug\Issue.dll
+C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\04.一般開立發票\Issue\obj\Debug\Issue.pdb

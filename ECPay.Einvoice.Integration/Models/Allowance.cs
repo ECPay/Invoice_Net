@@ -40,7 +40,7 @@ namespace Ecpay.EInvoice.Integration.Models
         /// 廠商編號(必填)
         /// </summary>
         [Required(ErrorMessage = "{0} is required.")]
-        [StringLength(10, ErrorMessage = "{0} max langth as {1}.")]
+        [StringLength(10, ErrorMessage = "{0} max length is {1}.")]
         public string MerchantID { get { return _MerchantID; } set { _MerchantID = value; } }
 
         /// <summary>
@@ -62,19 +62,19 @@ namespace Ecpay.EInvoice.Integration.Models
         ///                                            ->若為皆不通知時，則VAL = 'None'
         ///                       ‧如無填寫或空值     ->預設值為Email(電子郵件)
         /// </summary>
-        [Required(ErrorMessage = "{0} is required.")]
+        [Required(ErrorMessage = "{0} is required.")]        
         [NonProcessValue]
         public AllowanceNotifyEnum allowanceNotify { set { _AllowanceNotify = value; } get { return _AllowanceNotify; } }
 
-        [Required(ErrorMessage = "{0} is required.")]
+        [Required(ErrorMessage = "{0} is required.")]        
         internal string AllowanceNotify { get { return _AllowanceNotify.ToText(); } }
 
         /// <summary>
         /// 客戶名稱(選填)    ‧若客戶名稱有值時，則 ->僅能為中英數字格式
         ///                                          ->預設最大長度為30碼
         /// </summary>
-        [StringLength(30, ErrorMessage = "{0} max length as {1}.")]
-        [RegularExpression(@"^[0-9a-zA-Z\u0391-\uFFE5]+$", ErrorMessage = "{0} is incorrect format.")]
+        [StringLength(30, ErrorMessage = "{0} max length is {1}.")]
+        [RegularExpression(@"^[0-9a-zA-Z\u0391-\uFFE5]+$", ErrorMessage = "The format of {0} is incorrect.")]
         [NeedEncode]
         public string CustomerName { get { return _CustomerName; } set { _CustomerName = value; } }
 
@@ -84,19 +84,19 @@ namespace Ecpay.EInvoice.Integration.Models
         ///                    ‧補充說明(下述情況通知手機號碼不可為空值) ->通知電子信箱為空值
         ///                                                               ->通知類別為-簡訊
         /// </summary>
-        [RegularExpression(@"^[0-9]+$", ErrorMessage = "{0} is incorrect format.")]
-        [StringLength(20, ErrorMessage = "{0} max length as {1}.")]
-        [RequiredByAllowanceNotify(ErrorMessage = "Phone number and e-mail in which a required,or select a incorrect notify type.")]
+        [RegularExpression(@"^[0-9]+$", ErrorMessage = "The format of {0} is incorrect.")]
+        [StringLength(20, ErrorMessage = "{0} max length is {1}.")]
+        [RequiredByAllowanceNotify(ErrorMessage = "NotifyPhone is required in case of AllowanceNotify is A or S.")]
         public string NotifyPhone { get { return _NotifyPhone; } set { _NotifyPhone = value; } }
 
         /// <summary>
         /// 客戶電子信箱(選填)  ‧若客戶電子信箱有值時，則 ->格式僅能為Email的標準格式
         ///                     ‧補充說明(下述情況通知電子信箱不可為空值) ->通知手機號碼為空值
         ///                                                                ->通知類別為-電子郵件
-        /// </summary>
-        [StringLength(80, ErrorMessage = "{0} max length as {1}.")]
-        [RegularExpression(@"^[^\s]+@[^\s]+\.[^\s]+$", ErrorMessage = "{0} is incorrect format.")]
-        [RequiredByAllowanceNotify(ErrorMessage = "Phone number and e-mail in which a required,or select a incorrect notify type.")]
+        /// </summary>        
+        [StringLength(80, ErrorMessage = "{0} max length is {1}.")]
+        [RegularExpression(@"^[^\s]+@[^\s]+\.[^\s]+$", ErrorMessage = "The format of {0} is incorrect.")]
+        [RequiredByAllowanceNotify(ErrorMessage = "NotifyMail is required in case of AllowanceNotify is A or E.")]
         [NeedEncode]
         public string NotifyMail { get { return _NotifyMail; } set { _NotifyMail = value; } }
 
@@ -104,7 +104,7 @@ namespace Ecpay.EInvoice.Integration.Models
         /// 折讓單總金額(必填)    ‧含稅總金額
         /// </summary>
         [Required(ErrorMessage = "{0} is required.")]
-        [RegularExpression("^[0-9]+$", ErrorMessage = "{0} is incorrect format.")]
+        [RegularExpression("^[0-9]+$", ErrorMessage = "The format of {0} is incorrect.")]
         public string AllowanceAmount { get { return _AllowanceAmount; } set { _AllowanceAmount = value; } }
 
         /// <summary>

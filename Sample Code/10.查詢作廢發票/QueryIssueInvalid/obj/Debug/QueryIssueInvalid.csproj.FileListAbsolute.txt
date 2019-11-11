@@ -23,3 +23,8 @@ C:\Users\vicky.lan.ECPAY\Desktop\31.電子發票SDK\10.查詢作廢發票\QueryI
 C:\Users\vicky.lan.ECPAY\Desktop\31.電子發票SDK\10.查詢作廢發票\QueryIssueInvalid\obj\Debug\QueryIssueInvalid.csprojResolveAssemblyReference.cache
 C:\Users\vicky.lan.ECPAY\Desktop\31.電子發票SDK\10.查詢作廢發票\QueryIssueInvalid\obj\Debug\QueryIssueInvalid.dll
 C:\Users\vicky.lan.ECPAY\Desktop\31.電子發票SDK\10.查詢作廢發票\QueryIssueInvalid\obj\Debug\QueryIssueInvalid.pdb
+C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\10.查詢作廢發票\QueryIssueInvalid\bin\QueryIssueInvalid.dll
+C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\10.查詢作廢發票\QueryIssueInvalid\bin\QueryIssueInvalid.pdb
+C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\10.查詢作廢發票\QueryIssueInvalid\obj\Debug\QueryIssueInvalid.csprojResolveAssemblyReference.cache
+C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\10.查詢作廢發票\QueryIssueInvalid\obj\Debug\QueryIssueInvalid.dll
+C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\10.查詢作廢發票\QueryIssueInvalid\obj\Debug\QueryIssueInvalid.pdb

@@ -15,11 +15,6 @@
         /// <summary>
         /// 正式環境
         /// </summary>
-        Prod,
-
-        /// <summary>
-        /// 正式環境
-        /// </summary>
-        Beta
+        Prod
     }
 }

@@ -268,7 +268,7 @@ namespace Ecpay.EInvoice.Integration.Models
 
         /// <summary>
         /// 發票字軌類別(選填)  ‧固定給定下述預設值 ->若為一般稅額計算時，則VAL = 'Normal'
-        ///                                          ->若為特種稅額計算時，則VAL = 'Special'
+        ///                                          ->若為特種稅額計算時，則VAL = 'Special' P.S.因電子發票文件已移除08特種稅額，目前僅有一般稅額
         ///                     ‧如無填寫或空值 ->預設值為Normal(一般稅額)
         /// </summary>
         [NonProcessValue]

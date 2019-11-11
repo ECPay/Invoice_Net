@@ -80,11 +80,8 @@
     <Compile Include="Models\AllowanceReturn.cs" />
     <Compile Include="Models\InvoiceLoveCode.cs" />
     <Compile Include="Models\MobileBarcode.cs" />
-    <Compile Include="Resource\ApiUrl.Beta.Resource.Designer.cs">
-      <DependentUpon>ApiUrl.Beta.Resource.resx</DependentUpon>
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-    </Compile>
+    <Compile Include="Models\AllowanceByCollegiate.cs" />
+    <Compile Include="Models\AllowanceByCollegiateReturn.cs" />
     <Compile Include="Service\ApiUrlModel.cs" />
     <Compile Include="Interface\Iinvoice.cs" />
     <Compile Include="Models\InvoiceCreateReturn.cs" />
@@ -149,10 +146,6 @@
     <EmbeddedResource Include="Resource\ApiUrl.Dev.Resource.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>ApiUrl.Dev.Resource.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Resource\ApiUrl.Beta.Resource.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>ApiUrl.Beta.Resource.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

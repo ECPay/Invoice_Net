@@ -23,3 +23,8 @@ C:\Users\vicky.lan.ECPAY\Desktop\31.電子發票SDK\09.查詢發票\QueryIssue\b
 C:\Users\vicky.lan.ECPAY\Desktop\31.電子發票SDK\09.查詢發票\QueryIssue\obj\Debug\QueryIssue.csprojResolveAssemblyReference.cache
 C:\Users\vicky.lan.ECPAY\Desktop\31.電子發票SDK\09.查詢發票\QueryIssue\obj\Debug\QueryIssue.dll
 C:\Users\vicky.lan.ECPAY\Desktop\31.電子發票SDK\09.查詢發票\QueryIssue\obj\Debug\QueryIssue.pdb
+C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\09.查詢發票\QueryIssue\bin\QueryIssue.dll
+C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\09.查詢發票\QueryIssue\bin\QueryIssue.pdb
+C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\09.查詢發票\QueryIssue\obj\Debug\QueryIssue.csprojResolveAssemblyReference.cache
+C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\09.查詢發票\QueryIssue\obj\Debug\QueryIssue.dll
+C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\09.查詢發票\QueryIssue\obj\Debug\QueryIssue.pdb

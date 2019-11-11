@@ -23,3 +23,8 @@ C:\Users\jay.chang\Desktop\新增資料夾 (2)\05.延遲或觸發開立發票\De
 C:\Users\jay.chang\Desktop\新增資料夾 (2)\05.延遲或觸發開立發票\DelayIssue\obj\Debug\DelayIssue.csprojResolveAssemblyReference.cache
 C:\Users\jay.chang\Desktop\新增資料夾 (2)\05.延遲或觸發開立發票\DelayIssue\obj\Debug\DelayIssue.dll
 C:\Users\jay.chang\Desktop\新增資料夾 (2)\05.延遲或觸發開立發票\DelayIssue\obj\Debug\DelayIssue.pdb
+C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\05.延遲或觸發開立發票\DelayIssue\bin\DelayIssue.dll
+C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\05.延遲或觸發開立發票\DelayIssue\bin\DelayIssue.pdb
+C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\05.延遲或觸發開立發票\DelayIssue\obj\Debug\DelayIssue.csprojResolveAssemblyReference.cache
+C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\05.延遲或觸發開立發票\DelayIssue\obj\Debug\DelayIssue.dll
+C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\05.延遲或觸發開立發票\DelayIssue\obj\Debug\DelayIssue.pdb

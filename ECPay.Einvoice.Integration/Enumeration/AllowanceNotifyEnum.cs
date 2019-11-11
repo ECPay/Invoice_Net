@@ -25,7 +25,7 @@ namespace Ecpay.EInvoice.Integration.Enumeration
         /// <summary>
         /// 皆不通知
         /// </summary>
-        [Text("E")]
+        [Text("N")]
         None
     }
 }

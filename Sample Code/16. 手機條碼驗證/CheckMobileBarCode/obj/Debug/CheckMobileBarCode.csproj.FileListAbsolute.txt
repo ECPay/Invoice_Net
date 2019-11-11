@@ -12,3 +12,8 @@ D:\ECgithub\Invoice_Net\Sample Code\16. 手機條碼驗證\CheckMobileBarCode\ob
 D:\ECgithub\Invoice_Net\Sample Code\16. 手機條碼驗證\CheckMobileBarCode\obj\Debug\CheckMobileBarCode.pdb
 D:\ECgithub\Invoice_Net\Sample Code\16. 手機條碼驗證\CheckMobileBarCode\bin\CheckMobileBarCode.dll
 D:\ECgithub\Invoice_Net\Sample Code\16. 手機條碼驗證\CheckMobileBarCode\bin\CheckMobileBarCode.pdb
+C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\16. 手機條碼驗證\CheckMobileBarCode\bin\CheckMobileBarCode.dll
+C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\16. 手機條碼驗證\CheckMobileBarCode\bin\CheckMobileBarCode.pdb
+C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\16. 手機條碼驗證\CheckMobileBarCode\obj\Debug\CheckMobileBarCode.csprojResolveAssemblyReference.cache
+C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\16. 手機條碼驗證\CheckMobileBarCode\obj\Debug\CheckMobileBarCode.dll
+C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\16. 手機條碼驗證\CheckMobileBarCode\obj\Debug\CheckMobileBarCode.pdb

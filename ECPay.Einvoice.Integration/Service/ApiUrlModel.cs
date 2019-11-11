@@ -71,20 +71,6 @@ namespace Ecpay.EInvoice.Integration.Service
                    }
                 );
             }
-
-            resourceSet = ApiUrl_Beta_Resource.ResourceManager.GetResourceSet(CultureInfo.CurrentUICulture, true, true);
-            foreach (DictionaryEntry entry in resourceSet)
-            {
-                list.Add(
-                   new ApiUrl()
-                   {
-                       apiUrl = entry.Value.ToString(),
-                       env = EnvironmentEnum.Beta,
-                       invM = (InvoiceMethodEnum)Enum.Parse(typeof(InvoiceMethodEnum), entry.Key.ToString())
-                   }
-                );
-            }
-
             CacheItemPolicy policy = new CacheItemPolicy();
             policy.AbsoluteExpiration = DateTime.Now.AddHours(12);
             cache.Set(cacheName, list, policy);

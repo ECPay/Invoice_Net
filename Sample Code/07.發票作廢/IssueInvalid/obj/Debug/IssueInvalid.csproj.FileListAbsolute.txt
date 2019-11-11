@@ -18,3 +18,8 @@ C:\Users\vicky.lan.ECPAY\Desktop\31.電子發票SDK\07.發票作廢\IssueInvalid
 C:\Users\vicky.lan.ECPAY\Desktop\31.電子發票SDK\07.發票作廢\IssueInvalid\obj\Debug\IssueInvalid.csprojResolveAssemblyReference.cache
 C:\Users\vicky.lan.ECPAY\Desktop\31.電子發票SDK\07.發票作廢\IssueInvalid\obj\Debug\IssueInvalid.dll
 C:\Users\vicky.lan.ECPAY\Desktop\31.電子發票SDK\07.發票作廢\IssueInvalid\obj\Debug\IssueInvalid.pdb
+C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\07.發票作廢\IssueInvalid\bin\IssueInvalid.dll
+C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\07.發票作廢\IssueInvalid\bin\IssueInvalid.pdb
+C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\07.發票作廢\IssueInvalid\obj\Debug\IssueInvalid.csprojResolveAssemblyReference.cache
+C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\07.發票作廢\IssueInvalid\obj\Debug\IssueInvalid.dll
+C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\07.發票作廢\IssueInvalid\obj\Debug\IssueInvalid.pdb

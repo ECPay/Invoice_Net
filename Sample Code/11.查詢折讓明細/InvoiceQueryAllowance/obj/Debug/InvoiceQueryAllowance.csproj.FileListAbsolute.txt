@@ -18,3 +18,8 @@ C:\Users\vicky.lan.ECPAY\Desktop\31.電子發票SDK\11.查詢折讓明細\Invoic
 C:\Users\vicky.lan.ECPAY\Desktop\31.電子發票SDK\11.查詢折讓明細\InvoiceQueryAllowance\obj\Debug\InvoiceQueryAllowance.csprojResolveAssemblyReference.cache
 C:\Users\vicky.lan.ECPAY\Desktop\31.電子發票SDK\11.查詢折讓明細\InvoiceQueryAllowance\obj\Debug\InvoiceQueryAllowance.dll
 C:\Users\vicky.lan.ECPAY\Desktop\31.電子發票SDK\11.查詢折讓明細\InvoiceQueryAllowance\obj\Debug\InvoiceQueryAllowance.pdb
+C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\11.查詢折讓明細\InvoiceQueryAllowance\bin\InvoiceQueryAllowance.dll
+C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\11.查詢折讓明細\InvoiceQueryAllowance\bin\InvoiceQueryAllowance.pdb
+C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\11.查詢折讓明細\InvoiceQueryAllowance\obj\Debug\InvoiceQueryAllowance.csprojResolveAssemblyReference.cache
+C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\11.查詢折讓明細\InvoiceQueryAllowance\obj\Debug\InvoiceQueryAllowance.dll
+C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\11.查詢折讓明細\InvoiceQueryAllowance\obj\Debug\InvoiceQueryAllowance.pdb

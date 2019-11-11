@@ -55,7 +55,7 @@ namespace Ecpay.EInvoice.Integration.Service
             string Valid = Validate(obj);
 
             if (!string.IsNullOrEmpty(Valid))
-                return Valid;
+                return string.Format("{{\"RtnCode\":0, \"RtnMsg\":\"{0}\"}}", Valid);
 
             //組出傳送字串
             ObjectToNameValueCollection(obj);

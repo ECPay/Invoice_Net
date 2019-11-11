@@ -13,3 +13,8 @@ C:\Users\vicky.lan.ECPAY\Desktop\31.電子發票SDK\12.查詢折讓作廢明細\
 C:\Users\vicky.lan.ECPAY\Desktop\31.電子發票SDK\12.查詢折讓作廢明細\InvoiceQueryAllowanceInvalid\obj\Debug\InvoiceQueryAllowanceInvalid.csprojResolveAssemblyReference.cache
 C:\Users\vicky.lan.ECPAY\Desktop\31.電子發票SDK\12.查詢折讓作廢明細\InvoiceQueryAllowanceInvalid\obj\Debug\InvoiceQueryAllowanceInvalid.dll
 C:\Users\vicky.lan.ECPAY\Desktop\31.電子發票SDK\12.查詢折讓作廢明細\InvoiceQueryAllowanceInvalid\obj\Debug\InvoiceQueryAllowanceInvalid.pdb
+C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\12.查詢折讓作廢明細\InvoiceQueryAllowanceInvalid\bin\InvoiceQueryAllowanceInvalid.dll
+C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\12.查詢折讓作廢明細\InvoiceQueryAllowanceInvalid\bin\InvoiceQueryAllowanceInvalid.pdb
+C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\12.查詢折讓作廢明細\InvoiceQueryAllowanceInvalid\obj\Debug\InvoiceQueryAllowanceInvalid.csprojResolveAssemblyReference.cache
+C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\12.查詢折讓作廢明細\InvoiceQueryAllowanceInvalid\obj\Debug\InvoiceQueryAllowanceInvalid.dll
+C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\12.查詢折讓作廢明細\InvoiceQueryAllowanceInvalid\obj\Debug\InvoiceQueryAllowanceInvalid.pdb

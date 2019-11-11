@@ -18,3 +18,8 @@ C:\Users\vicky.lan.ECPAY\Desktop\31.電子發票SDK\06.開立折讓\InvoiceAllow
 C:\Users\vicky.lan.ECPAY\Desktop\31.電子發票SDK\06.開立折讓\InvoiceAllowance\obj\Debug\InvoiceAllowance.csprojResolveAssemblyReference.cache
 C:\Users\vicky.lan.ECPAY\Desktop\31.電子發票SDK\06.開立折讓\InvoiceAllowance\obj\Debug\InvoiceAllowance.dll
 C:\Users\vicky.lan.ECPAY\Desktop\31.電子發票SDK\06.開立折讓\InvoiceAllowance\obj\Debug\InvoiceAllowance.pdb
+C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\06.開立折讓\InvoiceAllowance\bin\InvoiceAllowance.dll
+C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\06.開立折讓\InvoiceAllowance\bin\InvoiceAllowance.pdb
+C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\06.開立折讓\InvoiceAllowance\obj\Debug\InvoiceAllowance.csprojResolveAssemblyReference.cache
+C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\06.開立折讓\InvoiceAllowance\obj\Debug\InvoiceAllowance.dll
+C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\06.開立折讓\InvoiceAllowance\obj\Debug\InvoiceAllowance.pdb

@@ -11,12 +11,12 @@ namespace Ecpay.EInvoice.Integration.Enumeration
         /// 一般稅額
         /// </summary>
         [Text("07")]
-        Normal = 7,
+        Normal = 7
 
-        /// <summary>
-        /// 特種稅額
-        /// </summary>
-        [Text("08")]
-        Special = 8
+        ///// <summary>
+        ///// 特種稅額
+        ///// </summary>
+        //[Text("08")]
+        //Special = 8
     }
 }

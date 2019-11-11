@@ -120,6 +120,9 @@
   <data name="Allowance" xml:space="preserve">
     <value>http://deveinvoice.ecpay.com.tw:12032/Invoice/Allowance</value>
   </data>
+  <data name="AllowanceByCollegiate" xml:space="preserve">
+    <value>http://deveinvoice.ecpay.com.tw:12032/Invoice/AllowanceByCollegiate</value>
+  </data>
   <data name="AllowanceInvalid" xml:space="preserve">
     <value>http://deveinvoice.ecpay.com.tw:12032/Invoice/AllowanceInvalid</value>
   </data>

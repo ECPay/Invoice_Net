@@ -1,0 +1,15 @@
+D:\Project\Invoice_Net-master\Sample Code\06-2.開立折讓(線上)\InvoiceAllowanceByCollegiate\bin\InvoiceAllowanceByCollegiate.dll
+D:\Project\Invoice_Net-master\Sample Code\06-2.開立折讓(線上)\InvoiceAllowanceByCollegiate\bin\InvoiceAllowanceByCollegiate.pdb
+D:\Project\Invoice_Net-master\Sample Code\06-2.開立折讓(線上)\InvoiceAllowanceByCollegiate\obj\Debug\InvoiceAllowanceByCollegiate.csprojResolveAssemblyReference.cache
+D:\Project\Invoice_Net-master\Sample Code\06-2.開立折讓(線上)\InvoiceAllowanceByCollegiate\obj\Debug\InvoiceAllowanceByCollegiate.dll
+D:\Project\Invoice_Net-master\Sample Code\06-2.開立折讓(線上)\InvoiceAllowanceByCollegiate\obj\Debug\InvoiceAllowanceByCollegiate.pdb
+C:\Users\eric.lin\Desktop\單\#59124 開發線上折讓範例程式\06-2.開立折讓(線上)\InvoiceAllowanceByCollegiate\bin\InvoiceAllowanceByCollegiate.dll
+C:\Users\eric.lin\Desktop\單\#59124 開發線上折讓範例程式\06-2.開立折讓(線上)\InvoiceAllowanceByCollegiate\bin\InvoiceAllowanceByCollegiate.pdb
+C:\Users\eric.lin\Desktop\單\#59124 開發線上折讓範例程式\06-2.開立折讓(線上)\InvoiceAllowanceByCollegiate\obj\Debug\InvoiceAllowanceByCollegiate.csprojResolveAssemblyReference.cache
+C:\Users\eric.lin\Desktop\單\#59124 開發線上折讓範例程式\06-2.開立折讓(線上)\InvoiceAllowanceByCollegiate\obj\Debug\InvoiceAllowanceByCollegiate.dll
+C:\Users\eric.lin\Desktop\單\#59124 開發線上折讓範例程式\06-2.開立折讓(線上)\InvoiceAllowanceByCollegiate\obj\Debug\InvoiceAllowanceByCollegiate.pdb
+C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\06-2.開立折讓(線上)\InvoiceAllowanceByCollegiate\bin\InvoiceAllowanceByCollegiate.dll
+C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\06-2.開立折讓(線上)\InvoiceAllowanceByCollegiate\bin\InvoiceAllowanceByCollegiate.pdb
+C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\06-2.開立折讓(線上)\InvoiceAllowanceByCollegiate\obj\Debug\InvoiceAllowanceByCollegiate.csprojResolveAssemblyReference.cache
+C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\06-2.開立折讓(線上)\InvoiceAllowanceByCollegiate\obj\Debug\InvoiceAllowanceByCollegiate.dll
+C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\06-2.開立折讓(線上)\InvoiceAllowanceByCollegiate\obj\Debug\InvoiceAllowanceByCollegiate.pdb

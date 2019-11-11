@@ -18,3 +18,8 @@ C:\Users\vicky.lan.ECPAY\Desktop\31.電子發票SDK\13.發送通知\NotifyInvoic
 C:\Users\vicky.lan.ECPAY\Desktop\31.電子發票SDK\13.發送通知\NotifyInvoiceNotify\obj\Debug\NotifyInvoiceNotify.csprojResolveAssemblyReference.cache
 C:\Users\vicky.lan.ECPAY\Desktop\31.電子發票SDK\13.發送通知\NotifyInvoiceNotify\obj\Debug\NotifyInvoiceNotify.dll
 C:\Users\vicky.lan.ECPAY\Desktop\31.電子發票SDK\13.發送通知\NotifyInvoiceNotify\obj\Debug\NotifyInvoiceNotify.pdb
+C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\13.發送通知\NotifyInvoiceNotify\bin\NotifyInvoiceNotify.dll
+C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\13.發送通知\NotifyInvoiceNotify\bin\NotifyInvoiceNotify.pdb
+C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\13.發送通知\NotifyInvoiceNotify\obj\Debug\NotifyInvoiceNotify.csprojResolveAssemblyReference.cache
+C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\13.發送通知\NotifyInvoiceNotify\obj\Debug\NotifyInvoiceNotify.dll
+C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\13.發送通知\NotifyInvoiceNotify\obj\Debug\NotifyInvoiceNotify.pdb

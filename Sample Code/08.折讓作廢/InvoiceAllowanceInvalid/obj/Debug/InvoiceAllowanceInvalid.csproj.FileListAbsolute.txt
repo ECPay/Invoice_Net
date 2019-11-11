@@ -8,3 +8,8 @@ C:\Users\vicky.lan.ECPAY\Desktop\31.電子發票SDK\08.折讓作廢\InvoiceAllow
 C:\Users\vicky.lan.ECPAY\Desktop\31.電子發票SDK\08.折讓作廢\InvoiceAllowanceInvalid\obj\Debug\InvoiceAllowanceInvalid.csprojResolveAssemblyReference.cache
 C:\Users\vicky.lan.ECPAY\Desktop\31.電子發票SDK\08.折讓作廢\InvoiceAllowanceInvalid\obj\Debug\InvoiceAllowanceInvalid.dll
 C:\Users\vicky.lan.ECPAY\Desktop\31.電子發票SDK\08.折讓作廢\InvoiceAllowanceInvalid\obj\Debug\InvoiceAllowanceInvalid.pdb
+C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\08.折讓作廢\InvoiceAllowanceInvalid\bin\InvoiceAllowanceInvalid.dll
+C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\08.折讓作廢\InvoiceAllowanceInvalid\bin\InvoiceAllowanceInvalid.pdb
+C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\08.折讓作廢\InvoiceAllowanceInvalid\obj\Debug\InvoiceAllowanceInvalid.csprojResolveAssemblyReference.cache
+C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\08.折讓作廢\InvoiceAllowanceInvalid\obj\Debug\InvoiceAllowanceInvalid.dll
+C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\08.折讓作廢\InvoiceAllowanceInvalid\obj\Debug\InvoiceAllowanceInvalid.pdb

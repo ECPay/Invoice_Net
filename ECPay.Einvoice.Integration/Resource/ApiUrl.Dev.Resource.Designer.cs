@@ -70,6 +70,15 @@ namespace Ecpay.EInvoice.Integration.Resource {
         }
         
         /// <summary>
+        ///   查詢類似 http://deveinvoice.ecpay.com.tw:12032/Invoice/AllowanceByCollegiate 的當地語系化字串。
+        /// </summary>
+        internal static string AllowanceByCollegiate {
+            get {
+                return ResourceManager.GetString("AllowanceByCollegiate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查詢類似 http://deveinvoice.ecpay.com.tw:12032/Invoice/AllowanceInvalid 的當地語系化字串。
         /// </summary>
         internal static string AllowanceInvalid {

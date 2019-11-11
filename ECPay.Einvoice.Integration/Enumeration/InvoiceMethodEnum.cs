@@ -19,8 +19,11 @@ namespace Ecpay.EInvoice.Integration.Enumeration
         [Description("觸發延遲開立發票")]
         InvoiceTrigger,
 
-        [Description("折讓發票")]
+        [Description("折讓發票(紙本)")]
         Allowance,
+
+        [Description("折讓發票(線上)")]
+        AllowanceByCollegiate,
 
         [Description("折讓發票作廢")]
         AllowanceInvalid,
