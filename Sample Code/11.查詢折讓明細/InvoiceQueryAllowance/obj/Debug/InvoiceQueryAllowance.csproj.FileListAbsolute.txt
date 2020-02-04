@@ -23,3 +23,12 @@ C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\11.查詢折讓明�
 C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\11.查詢折讓明細\InvoiceQueryAllowance\obj\Debug\InvoiceQueryAllowance.csprojResolveAssemblyReference.cache
 C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\11.查詢折讓明細\InvoiceQueryAllowance\obj\Debug\InvoiceQueryAllowance.dll
 C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\11.查詢折讓明細\InvoiceQueryAllowance\obj\Debug\InvoiceQueryAllowance.pdb
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\11.查詢折讓明細\InvoiceQueryAllowance\bin\InvoiceQueryAllowance.dll
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\11.查詢折讓明細\InvoiceQueryAllowance\bin\InvoiceQueryAllowance.pdb
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\11.查詢折讓明細\InvoiceQueryAllowance\bin\Ecpay.EInvoice.Integration.pdb
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\11.查詢折讓明細\InvoiceQueryAllowance\bin\Newtonsoft.Json.xml
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\11.查詢折讓明細\InvoiceQueryAllowance\obj\Debug\InvoiceQueryAllowance.csprojAssemblyReference.cache
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\11.查詢折讓明細\InvoiceQueryAllowance\obj\Debug\InvoiceQueryAllowance.csproj.CoreCompileInputs.cache
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\11.查詢折讓明細\InvoiceQueryAllowance\obj\Debug\InvoiceQueryAllowance.csproj.CopyComplete
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\11.查詢折讓明細\InvoiceQueryAllowance\obj\Debug\InvoiceQueryAllowance.dll
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\11.查詢折讓明細\InvoiceQueryAllowance\obj\Debug\InvoiceQueryAllowance.pdb

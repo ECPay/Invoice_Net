@@ -23,3 +23,12 @@ C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\06.開立折讓\Invo
 C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\06.開立折讓\InvoiceAllowance\obj\Debug\InvoiceAllowance.csprojResolveAssemblyReference.cache
 C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\06.開立折讓\InvoiceAllowance\obj\Debug\InvoiceAllowance.dll
 C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\06.開立折讓\InvoiceAllowance\obj\Debug\InvoiceAllowance.pdb
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\06.開立折讓\InvoiceAllowance\bin\InvoiceAllowance.dll
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\06.開立折讓\InvoiceAllowance\bin\InvoiceAllowance.pdb
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\06.開立折讓\InvoiceAllowance\bin\Ecpay.EInvoice.Integration.pdb
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\06.開立折讓\InvoiceAllowance\bin\Newtonsoft.Json.xml
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\06.開立折讓\InvoiceAllowance\obj\Debug\InvoiceAllowance.csprojAssemblyReference.cache
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\06.開立折讓\InvoiceAllowance\obj\Debug\InvoiceAllowance.csproj.CoreCompileInputs.cache
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\06.開立折讓\InvoiceAllowance\obj\Debug\InvoiceAllowance.csproj.CopyComplete
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\06.開立折讓\InvoiceAllowance\obj\Debug\InvoiceAllowance.dll
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\06.開立折讓\InvoiceAllowance\obj\Debug\InvoiceAllowance.pdb

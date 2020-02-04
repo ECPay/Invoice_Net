@@ -28,3 +28,12 @@ C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\05.延遲或觸發�
 C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\05.延遲或觸發開立發票\DelayIssue\obj\Debug\DelayIssue.csprojResolveAssemblyReference.cache
 C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\05.延遲或觸發開立發票\DelayIssue\obj\Debug\DelayIssue.dll
 C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\05.延遲或觸發開立發票\DelayIssue\obj\Debug\DelayIssue.pdb
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\05.延遲或觸發開立發票\DelayIssue\bin\DelayIssue.dll
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\05.延遲或觸發開立發票\DelayIssue\bin\DelayIssue.pdb
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\05.延遲或觸發開立發票\DelayIssue\bin\Ecpay.EInvoice.Integration.pdb
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\05.延遲或觸發開立發票\DelayIssue\bin\Newtonsoft.Json.xml
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\05.延遲或觸發開立發票\DelayIssue\obj\Debug\DelayIssue.csprojAssemblyReference.cache
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\05.延遲或觸發開立發票\DelayIssue\obj\Debug\DelayIssue.csproj.CoreCompileInputs.cache
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\05.延遲或觸發開立發票\DelayIssue\obj\Debug\DelayIssue.csproj.CopyComplete
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\05.延遲或觸發開立發票\DelayIssue\obj\Debug\DelayIssue.dll
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\05.延遲或觸發開立發票\DelayIssue\obj\Debug\DelayIssue.pdb

@@ -21,7 +21,7 @@ namespace InvoiceAllowanceInvalid
             invc.MerchantID = "2000132";//廠商編號。
             invc.InvoiceNo = "XK00024189";//發票號碼。
             invc.AllowanceNo = "2017121415015512";//折讓單號。
-            invc.Reason = "";//作廢原因。
+            invc.Reason = "123";//作廢原因。
             //2. 初始化發票Service物件
             Invoice<AllowanceInvalid> inv = new Invoice<AllowanceInvalid>();
             //3. 指定測試環境, 上線時請記得改Prod

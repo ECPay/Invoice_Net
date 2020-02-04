@@ -19,7 +19,7 @@ namespace IssueInvalid
             //1. 設定發票作廢資訊
             InvoiceInvalid invc = new InvoiceInvalid();
             invc.MerchantID = "2000132";//廠商編號。
-            invc.InvoiceNumber = "";//發票號碼。
+            invc.InvoiceNumber = "YE50047080";//發票號碼。
             invc.Reason = "test";//作廢原因。
             //2. 初始化發票Service物件
             Invoice<InvoiceInvalid> inv = new Invoice<InvoiceInvalid>();

@@ -13,3 +13,12 @@ C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\08.折讓作廢\Invo
 C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\08.折讓作廢\InvoiceAllowanceInvalid\obj\Debug\InvoiceAllowanceInvalid.csprojResolveAssemblyReference.cache
 C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\08.折讓作廢\InvoiceAllowanceInvalid\obj\Debug\InvoiceAllowanceInvalid.dll
 C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\08.折讓作廢\InvoiceAllowanceInvalid\obj\Debug\InvoiceAllowanceInvalid.pdb
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\08.折讓作廢\InvoiceAllowanceInvalid\bin\InvoiceAllowanceInvalid.dll
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\08.折讓作廢\InvoiceAllowanceInvalid\bin\InvoiceAllowanceInvalid.pdb
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\08.折讓作廢\InvoiceAllowanceInvalid\bin\Ecpay.EInvoice.Integration.pdb
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\08.折讓作廢\InvoiceAllowanceInvalid\bin\Newtonsoft.Json.xml
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\08.折讓作廢\InvoiceAllowanceInvalid\obj\Debug\InvoiceAllowanceInvalid.csprojAssemblyReference.cache
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\08.折讓作廢\InvoiceAllowanceInvalid\obj\Debug\InvoiceAllowanceInvalid.csproj.CoreCompileInputs.cache
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\08.折讓作廢\InvoiceAllowanceInvalid\obj\Debug\InvoiceAllowanceInvalid.csproj.CopyComplete
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\08.折讓作廢\InvoiceAllowanceInvalid\obj\Debug\InvoiceAllowanceInvalid.dll
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\08.折讓作廢\InvoiceAllowanceInvalid\obj\Debug\InvoiceAllowanceInvalid.pdb

@@ -23,3 +23,12 @@ C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\13.發送通知\Noti
 C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\13.發送通知\NotifyInvoiceNotify\obj\Debug\NotifyInvoiceNotify.csprojResolveAssemblyReference.cache
 C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\13.發送通知\NotifyInvoiceNotify\obj\Debug\NotifyInvoiceNotify.dll
 C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\13.發送通知\NotifyInvoiceNotify\obj\Debug\NotifyInvoiceNotify.pdb
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\13.發送通知\NotifyInvoiceNotify\bin\NotifyInvoiceNotify.dll
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\13.發送通知\NotifyInvoiceNotify\bin\NotifyInvoiceNotify.pdb
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\13.發送通知\NotifyInvoiceNotify\bin\Ecpay.EInvoice.Integration.pdb
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\13.發送通知\NotifyInvoiceNotify\bin\Newtonsoft.Json.xml
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\13.發送通知\NotifyInvoiceNotify\obj\Debug\NotifyInvoiceNotify.csprojAssemblyReference.cache
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\13.發送通知\NotifyInvoiceNotify\obj\Debug\NotifyInvoiceNotify.csproj.CoreCompileInputs.cache
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\13.發送通知\NotifyInvoiceNotify\obj\Debug\NotifyInvoiceNotify.csproj.CopyComplete
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\13.發送通知\NotifyInvoiceNotify\obj\Debug\NotifyInvoiceNotify.dll
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\13.發送通知\NotifyInvoiceNotify\obj\Debug\NotifyInvoiceNotify.pdb

@@ -23,3 +23,12 @@ C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\07.發票作廢\Issu
 C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\07.發票作廢\IssueInvalid\obj\Debug\IssueInvalid.csprojResolveAssemblyReference.cache
 C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\07.發票作廢\IssueInvalid\obj\Debug\IssueInvalid.dll
 C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\07.發票作廢\IssueInvalid\obj\Debug\IssueInvalid.pdb
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\07.發票作廢\IssueInvalid\bin\IssueInvalid.dll
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\07.發票作廢\IssueInvalid\bin\IssueInvalid.pdb
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\07.發票作廢\IssueInvalid\bin\Ecpay.EInvoice.Integration.pdb
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\07.發票作廢\IssueInvalid\bin\Newtonsoft.Json.xml
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\07.發票作廢\IssueInvalid\obj\Debug\IssueInvalid.csprojAssemblyReference.cache
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\07.發票作廢\IssueInvalid\obj\Debug\IssueInvalid.csproj.CoreCompileInputs.cache
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\07.發票作廢\IssueInvalid\obj\Debug\IssueInvalid.csproj.CopyComplete
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\07.發票作廢\IssueInvalid\obj\Debug\IssueInvalid.dll
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\07.發票作廢\IssueInvalid\obj\Debug\IssueInvalid.pdb

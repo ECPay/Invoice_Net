@@ -38,3 +38,12 @@ C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\04.一般開立發�
 C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\04.一般開立發票\Issue\obj\Debug\Issue.csprojResolveAssemblyReference.cache
 C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\04.一般開立發票\Issue\obj\Debug\Issue.dll
 C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\04.一般開立發票\Issue\obj\Debug\Issue.pdb
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\04.一般開立發票\Issue\bin\Issue.dll
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\04.一般開立發票\Issue\bin\Issue.pdb
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\04.一般開立發票\Issue\bin\Ecpay.EInvoice.Integration.pdb
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\04.一般開立發票\Issue\bin\Newtonsoft.Json.xml
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\04.一般開立發票\Issue\obj\Debug\Issue.csprojAssemblyReference.cache
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\04.一般開立發票\Issue\obj\Debug\Issue.csproj.CoreCompileInputs.cache
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\04.一般開立發票\Issue\obj\Debug\Issue.csproj.CopyComplete
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\04.一般開立發票\Issue\obj\Debug\Issue.dll
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\04.一般開立發票\Issue\obj\Debug\Issue.pdb

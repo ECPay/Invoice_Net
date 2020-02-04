@@ -28,3 +28,12 @@ C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\09.查詢發票\Quer
 C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\09.查詢發票\QueryIssue\obj\Debug\QueryIssue.csprojResolveAssemblyReference.cache
 C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\09.查詢發票\QueryIssue\obj\Debug\QueryIssue.dll
 C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\09.查詢發票\QueryIssue\obj\Debug\QueryIssue.pdb
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\09.查詢發票\QueryIssue\bin\QueryIssue.dll
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\09.查詢發票\QueryIssue\bin\QueryIssue.pdb
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\09.查詢發票\QueryIssue\bin\Ecpay.EInvoice.Integration.pdb
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\09.查詢發票\QueryIssue\bin\Newtonsoft.Json.xml
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\09.查詢發票\QueryIssue\obj\Debug\QueryIssue.csprojAssemblyReference.cache
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\09.查詢發票\QueryIssue\obj\Debug\QueryIssue.csproj.CoreCompileInputs.cache
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\09.查詢發票\QueryIssue\obj\Debug\QueryIssue.csproj.CopyComplete
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\09.查詢發票\QueryIssue\obj\Debug\QueryIssue.dll
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\09.查詢發票\QueryIssue\obj\Debug\QueryIssue.pdb

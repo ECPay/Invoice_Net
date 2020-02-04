@@ -23,3 +23,12 @@ C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\14.付款完成觸�
 C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\14.付款完成觸發或延遲開立發票\TriggerIssue\obj\Debug\TriggerIssue.csprojResolveAssemblyReference.cache
 C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\14.付款完成觸發或延遲開立發票\TriggerIssue\obj\Debug\TriggerIssue.dll
 C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\14.付款完成觸發或延遲開立發票\TriggerIssue\obj\Debug\TriggerIssue.pdb
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\14.付款完成觸發或延遲開立發票\TriggerIssue\bin\TriggerIssue.dll
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\14.付款完成觸發或延遲開立發票\TriggerIssue\bin\TriggerIssue.pdb
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\14.付款完成觸發或延遲開立發票\TriggerIssue\bin\Ecpay.EInvoice.Integration.pdb
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\14.付款完成觸發或延遲開立發票\TriggerIssue\bin\Newtonsoft.Json.xml
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\14.付款完成觸發或延遲開立發票\TriggerIssue\obj\Debug\TriggerIssue.csprojAssemblyReference.cache
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\14.付款完成觸發或延遲開立發票\TriggerIssue\obj\Debug\TriggerIssue.csproj.CoreCompileInputs.cache
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\14.付款完成觸發或延遲開立發票\TriggerIssue\obj\Debug\TriggerIssue.csproj.CopyComplete
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\14.付款完成觸發或延遲開立發票\TriggerIssue\obj\Debug\TriggerIssue.dll
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\14.付款完成觸發或延遲開立發票\TriggerIssue\obj\Debug\TriggerIssue.pdb

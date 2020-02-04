@@ -28,7 +28,7 @@ namespace DelayIssue
             invc.CustomerName = "";//客戶名稱
             invc.CustomerAddr = "";//客戶地址
             invc.CustomerPhone = "0912345678";//客戶手機號碼
-            invc.CustomerEmail = "test@allpay.com.tw";//客戶電子信箱
+            invc.CustomerEmail = "test@ecpay.com.tw";//客戶電子信箱
             //invc.ClearanceMark = CustomsClearanceMarkEnum.None;//通關方式
             invc.Print = PrintEnum.No;//列印註記
             invc.Donation = DonationEnum.No;//捐贈註記
@@ -39,7 +39,7 @@ namespace DelayIssue
             invc.TaxType = TaxTypeEnum.DutyFree;//課稅類別
             invc.SalesAmount = "200";//發票金額。含稅總金額
             invc.InvoiceRemark = "";//備註
-            invc.DelayDay = "0";//延遲天數
+            invc.DelayDay = "5";//延遲天數
             //invc.ECBankID = "";//ECBank 代號          
             invc.Tsr = "ecPaytest" + new Random().Next(0, 99999).ToString();//交易單號
             invc.PayType = PayTypeEnum.ECPAY;//交易類別

@@ -17,3 +17,12 @@ C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\16. 手機條碼驗�
 C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\16. 手機條碼驗證\CheckMobileBarCode\obj\Debug\CheckMobileBarCode.csprojResolveAssemblyReference.cache
 C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\16. 手機條碼驗證\CheckMobileBarCode\obj\Debug\CheckMobileBarCode.dll
 C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\16. 手機條碼驗證\CheckMobileBarCode\obj\Debug\CheckMobileBarCode.pdb
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\16. 手機條碼驗證\CheckMobileBarCode\bin\CheckMobileBarCode.dll
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\16. 手機條碼驗證\CheckMobileBarCode\bin\CheckMobileBarCode.pdb
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\16. 手機條碼驗證\CheckMobileBarCode\bin\Ecpay.EInvoice.Integration.pdb
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\16. 手機條碼驗證\CheckMobileBarCode\bin\Newtonsoft.Json.xml
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\16. 手機條碼驗證\CheckMobileBarCode\obj\Debug\CheckMobileBarCode.csprojAssemblyReference.cache
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\16. 手機條碼驗證\CheckMobileBarCode\obj\Debug\CheckMobileBarCode.csproj.CoreCompileInputs.cache
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\16. 手機條碼驗證\CheckMobileBarCode\obj\Debug\CheckMobileBarCode.csproj.CopyComplete
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\16. 手機條碼驗證\CheckMobileBarCode\obj\Debug\CheckMobileBarCode.dll
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\16. 手機條碼驗證\CheckMobileBarCode\obj\Debug\CheckMobileBarCode.pdb

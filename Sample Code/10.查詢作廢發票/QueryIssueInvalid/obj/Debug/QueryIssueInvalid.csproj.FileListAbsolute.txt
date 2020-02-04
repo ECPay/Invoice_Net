@@ -28,3 +28,12 @@ C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\10.查詢作廢發�
 C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\10.查詢作廢發票\QueryIssueInvalid\obj\Debug\QueryIssueInvalid.csprojResolveAssemblyReference.cache
 C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\10.查詢作廢發票\QueryIssueInvalid\obj\Debug\QueryIssueInvalid.dll
 C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\10.查詢作廢發票\QueryIssueInvalid\obj\Debug\QueryIssueInvalid.pdb
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\10.查詢作廢發票\QueryIssueInvalid\bin\QueryIssueInvalid.dll
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\10.查詢作廢發票\QueryIssueInvalid\bin\QueryIssueInvalid.pdb
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\10.查詢作廢發票\QueryIssueInvalid\bin\Ecpay.EInvoice.Integration.pdb
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\10.查詢作廢發票\QueryIssueInvalid\bin\Newtonsoft.Json.xml
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\10.查詢作廢發票\QueryIssueInvalid\obj\Debug\QueryIssueInvalid.csprojAssemblyReference.cache
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\10.查詢作廢發票\QueryIssueInvalid\obj\Debug\QueryIssueInvalid.csproj.CoreCompileInputs.cache
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\10.查詢作廢發票\QueryIssueInvalid\obj\Debug\QueryIssueInvalid.csproj.CopyComplete
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\10.查詢作廢發票\QueryIssueInvalid\obj\Debug\QueryIssueInvalid.dll
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\10.查詢作廢發票\QueryIssueInvalid\obj\Debug\QueryIssueInvalid.pdb

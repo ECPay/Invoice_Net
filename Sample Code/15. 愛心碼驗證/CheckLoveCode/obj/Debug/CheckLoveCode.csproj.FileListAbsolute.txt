@@ -13,3 +13,12 @@ C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\15. 愛心碼驗證\
 C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\15. 愛心碼驗證\CheckLoveCode\obj\Debug\CheckLoveCode.csprojResolveAssemblyReference.cache
 C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\15. 愛心碼驗證\CheckLoveCode\obj\Debug\CheckLoveCode.dll
 C:\Users\louis.tseng\Desktop\Invoice_Net-master\Sample Code\15. 愛心碼驗證\CheckLoveCode\obj\Debug\CheckLoveCode.pdb
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\15. 愛心碼驗證\CheckLoveCode\bin\CheckLoveCode.dll
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\15. 愛心碼驗證\CheckLoveCode\bin\CheckLoveCode.pdb
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\15. 愛心碼驗證\CheckLoveCode\bin\Ecpay.EInvoice.Integration.pdb
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\15. 愛心碼驗證\CheckLoveCode\bin\Newtonsoft.Json.xml
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\15. 愛心碼驗證\CheckLoveCode\obj\Debug\CheckLoveCode.csprojAssemblyReference.cache
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\15. 愛心碼驗證\CheckLoveCode\obj\Debug\CheckLoveCode.csproj.CoreCompileInputs.cache
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\15. 愛心碼驗證\CheckLoveCode\obj\Debug\CheckLoveCode.csproj.CopyComplete
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\15. 愛心碼驗證\CheckLoveCode\obj\Debug\CheckLoveCode.dll
+C:\Users\luke.liao\Desktop\Invoice_Net-master (3)\Invoice_Net-master\Sample Code\15. 愛心碼驗證\CheckLoveCode\obj\Debug\CheckLoveCode.pdb
