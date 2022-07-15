@@ -1,0 +1,55 @@
+﻿@using EinvoiceIntegration.Enum
+@model EinvoiceIntegration.Sample.Models.B2C.InvoiceInvalid
+@{
+                /**/
+
+                ViewBag.Title = "綠界科技";
+                Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>發票作廢</h2>
+@using (Html.BeginForm("Index", "B2CInvoiceInvalid", FormMethod.Post))
+{
+    <div class="div1">
+        <table class="table">
+            <tr>
+                <th>
+                    廠商編號(必填)：
+                </th>
+                <td>
+                    @Html.TextBoxFor(m => m.MerchantID, new { @Value = "2000132" })
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    發票號碼(必填)：
+                </th>
+                <td>
+                    @Html.TextBoxFor(m => m.InvoiceNo, new { @Value = "MJ80024694" })
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    發票日期(必填)：
+                </th>
+                <td>
+                    @Html.TextBoxFor(m => m.InvoiceDate, new { @Value = "2021-08-13", @placeholder = "yyyy-MM-dd" })
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    作廢原因(必填)：
+                </th>
+                <td>
+                    @Html.TextBoxFor(m => m.Reason, new { @Value = "測試作廢發票" })
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="buttonPanel">
+        <button type="submit">送出</button>
+        <button type="reset">重新填寫</button>
+    </div>
+    <h2>顯示結果</h2>
+    <span id="answer" class="div1">@ViewBag.Message</span>
+}

@@ -1,0 +1,60 @@
+﻿@using EinvoiceIntegration.Enum
+@model EinvoiceIntegration.Models.B2B.CancelAllowanceModel
+@{
+    ViewBag.Title = "綠界科技";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<script type="text/javascript">
+    $(function () {
+        $('#reset').click(function () {
+            location.href='@Url.Action("Index")';
+        });
+    });
+</script>
+@using (Html.BeginForm("Index", "B2BInvoiceCancelAllowance", FormMethod.Post))
+{
+    <h2>折讓作廢</h2>
+    <div class="div1">
+        <table class="table">
+            <tr>
+                <th>
+                    廠商編號(必填)：
+                </th>
+                <td>
+                    @Html.TextBoxFor(m => m.MerchantID)
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    折讓單號(必填)：
+                </th>
+                <td>
+                    @Html.TextBoxFor(m => m.AllowanceNo, new { @Value = "2108161022330279" })
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    作廢原因(必填)：
+                </th>
+                <td>
+                    @Html.TextBoxFor(m => m.Reason, new { @Value = "測試折讓作廢" })
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    備註(選填)：
+                </th>
+                <td>
+                    @Html.TextBoxFor(m => m.Remark)
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="buttonPanel">
+        <button type="submit">送出</button>
+        <button type="button" id="reset">重新填寫</button>
+    </div>
+    <h2>顯示結果</h2>
+    <span id="answer" class="div1" style="word-wrap:break-word;">@ViewBag.message</span>
+}

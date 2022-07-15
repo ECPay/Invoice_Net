@@ -1,0 +1,92 @@
+﻿@using EinvoiceIntegration.Enum
+@model EinvoiceIntegration.Models.B2C.NotifyModel
+@{
+    ViewBag.Title = "綠界科技";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<script type="text/javascript">
+    $(function () {
+        $('#reset').click(function () {
+            location.href='@Url.Action("Index")';
+        });
+    });
+</script>
+@using (Html.BeginForm("Index", "B2CInvoiceNotify", FormMethod.Post))
+{
+    <h2>發送通知</h2>
+    <div class="div1">
+        <table class="table" style="word-wrap:break-word;">
+            <tr>
+                <th>
+                    廠商編號(必填)：
+                </th>
+                <td>
+                    @Html.TextBoxFor(m => m.MerchantID)
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    通知類別(必填) 發送內容類型 I: 發票開立 II: 發票作廢 A: 折讓開立 AI: 折讓作廢 AW:發票中獎：
+                </th>
+                <td>
+                    @Html.TextBoxFor(m => m.InvoiceTag, new { @Value = "I" })
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    發送對象(必填) C: 發送通知給客戶 M: 發送通知給合作特店 A: 皆發送通知：
+                </th>
+                <td>
+                    @Html.TextBoxFor(m => m.Notified, new { @Value = "C" })
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    發送方式(必填) S:簡訊 E:電子郵件 A:皆通知時：
+                </th>
+                <td>
+                    @Html.TextBoxFor(m => m.Notify, new { @Value = "E" })
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    發票號碼(必填)：
+                </th>
+                <td>
+                    @Html.TextBoxFor(m => m.InvoiceNo, new { @Value = "MJ80024679" })
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    折讓單編號(選填)：
+                </th>
+                <td>
+                    @Html.TextBoxFor(m => m.AllowanceNo)
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    通知 EMail(選填)：
+                </th>
+                <td>
+                    @Html.TextBoxFor(m => m.NotifyMail)
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    發送簡訊號碼(選填)：
+                </th>
+                <td>
+                    @Html.TextBoxFor(m => m.Phone)
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="buttonPanel">
+        <button type="submit">送出</button>
+        <button type="button" id="reset">重新填寫</button>
+    </div>
+    <h2>顯示結果</h2>
+    <span id="answer" class="div1" style="word-wrap:break-word;">@ViewBag.message</span>
+}
