@@ -1,0 +1,224 @@
+﻿@using EinvoiceIntegration.Enum
+@model EinvoiceIntegration.Models.B2C.AllowanceByCollegiateModel
+@{
+    ViewBag.Title = "綠界科技";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>發票折讓(線上)</h2>
+<div class="div1">
+    <table class="table" style="word-wrap:break-word;">
+        <tr>
+            <th>
+                廠商編號(必填)：
+            </th>
+            <td>
+                @Html.TextBoxFor(m => m.MerchantID)
+            </td>
+        </tr>
+        <tr>
+            <th>
+                發票號碼(必填)：
+            </th>
+            <td>
+                @Html.TextBoxFor(m => m.InvoiceNo, new { @Value = "MJ80024679" })
+            </td>
+        </tr>
+        <tr>
+            <th>
+                發票日期(必填) yyyy-MM-dd：
+            </th>
+            <td>
+                @Html.TextBoxFor(m => m.InvoiceDate, new { @Value = "2021-08-13", @placeholder = "yyyy-MM-dd" })
+            </td>
+        </tr>
+        <tr>
+            <th>
+                通知類別(必填) S:簡訊 E:電子郵件 A:皆通知時 N:皆不通知：
+            </th>
+            <td>
+                @Html.TextBoxFor(m => m.AllowanceNotify, new { @Value = "E" })
+            </td>
+        </tr>
+        <tr>
+            <th>
+                折讓單總金額(含稅) (必填)：
+            </th>
+            <td>
+                @Html.TextBoxFor(m => m.AllowanceAmount, new { @Value = "10" })
+            </td>
+        </tr>
+        <tr>
+            <th>
+                客戶名稱(選填)：
+            </th>
+            <td>
+                @Html.TextBoxFor(m => m.CustomerName)
+            </td>
+        </tr>
+        <tr>
+            <th>
+                通知電子信箱(選填)：
+            </th>
+            <td>
+                @Html.TextBoxFor(m => m.NotifyMail, new { @Value = "test@ecpay.com.tw" })
+            </td>
+        </tr>
+        <tr>
+            <th>
+                通知手機號碼(選填)：
+            </th>
+            <td>
+                @Html.TextBoxFor(m => m.NotifyPhone)
+            </td>
+        </tr>
+        <tr>
+            <th>
+                折讓原因(選填)：
+            </th>
+            <td>
+                @Html.TextBoxFor(m => m.Reason)
+            </td>
+        </tr>
+        <tr>
+            <th>
+                消費者同意後回傳網址(選填)：
+            </th>
+            <td>
+                @Html.TextBoxFor(m => m.ReturnURL)
+            </td>
+        </tr>
+        <tr>
+            <th>
+                商品明細(必填)：
+            </th>
+            <td>
+                <a id="lnkAddItem" class="btn btn-primary">新增一列</a>
+                <a id="lnkDelItem" class="btn btn-primary">刪除一列</a>
+                <table id="tbItems">
+                    <thead>
+                        <tr>
+                            <th>
+                                明細排列序號(必填)
+                            </th>
+                            <th>
+                                商品名稱(必填)
+                            </th>
+                            <th>
+                                商品數量(必填)
+                            </th>
+                            <th>
+                                商品單位(必填)
+                            </th>
+                            <th>
+                                商品價格(必填) (含稅)
+                            </th>
+                            <th>
+                                商品課稅別(選填) 1：應稅 2：零稅率 3：免稅 4：應稅(特種) 9：混合
+                            </th>
+                            <th>
+                                商品合計(必填) (含稅)
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+</div>
+
+<div class="buttonPanel">
+    <input type="submit" value="送出" id="btnSubmit" />
+    <input type="submit" value="重新填寫" id="btnReset" />
+</div>
+<h2>顯示結果</h2>
+<span id="answer" class="div1" style="word-wrap:break-word;"></span>
+
+<script type="text/javascript">
+    var model = {
+        Items: []
+    };
+
+    var resetHtml = $("#main").html();
+
+    //商品明細 新增
+    $('#lnkAddItem').click(function () {
+        var newItemHtml = '<tr><td><input type="text" name="Items.ItemSeq" value="1" /></td><td><input type="text" name="Items.ItemName" value="T1" /></td><td><input type="text" name="Items.ItemCount" value="1" /></td><td><input type="text" name="Items.ItemWord" value="個" /></td><td><input type="text" name="Items.ItemPrice" value="10" /></td><td><input type="text" name="Items.ItemTaxType" /></td><td><input type="text" name="Items.ItemAmount" value="10" /></td></tr>';
+        var $item = $(newItemHtml).appendTo('#tbItems > tbody');
+        model.Items.push({
+            ItemName: '',
+            ItemCount: 0,
+            ItemPrice: 0,
+            ItemAmount: 0,
+            ItemTaxType: '',
+            ItemWord: '',
+            ItemSeq: 1
+        });
+        return false;
+    }).click();
+
+    //商品明細 刪除
+    $('#lnkDelItem').click(function () {
+        if ($('#tbItems > tbody > tr').length <= 1) return false;
+        $('#tbItems > tbody > tr:last').remove();
+        model.Items.pop();
+        return false;
+    });
+
+    $('#btnSubmit').click(function () {
+        model.MerchantID = $('#MerchantID').val();
+        model.EnvEnum = $('#EnvEnum').val();
+        model.HashKey = $('#HashKey').val();
+        model.HashIV = $('#HashIV').val();
+        model.InvoiceNo = $('#InvoiceNo').val();
+        model.InvoiceDate = $('#InvoiceDate').val();
+        model.AllowanceNotify = $('#AllowanceNotify').val();
+        model.AllowanceAmount = $('#AllowanceAmount').val();
+        model.CustomerName = $('#CustomerName').val();
+        model.NotifyMail = $('#NotifyMail').val();
+        model.NotifyPhone = $('#NotifyPhone').val();
+        model.Reason = $('#Reason').val();
+        model.ReturnURL = $('#ReturnURL').val();
+        var $rows = $("#tbItems > tbody > tr");
+        $('#tbItems > tbody > tr').each(function (i) {
+            var $tr = $($rows[i]);
+            var item = model.Items[i];
+            item.ItemSeq = $tr.find('input[name="Items.ItemSeq"]:first').val();
+            item.ItemTaxType = $tr.find('input[name="Items.ItemTaxType"]:first').val();
+            item.ItemAmount = $tr.find('input[name="Items.ItemAmount"]:first').val();
+            item.ItemPrice = $tr.find('input[name="Items.ItemPrice"]:first').val();
+            item.ItemCount = $tr.find('input[name="Items.ItemCount"]:first').val();
+            item.ItemName = $tr.find('input[name="Items.ItemName"]:first').val();
+            item.ItemWord = $tr.find('input[name="Items.ItemWord"]:first').val();
+        });
+
+        $.ajax({
+            url: '@Url.Action("Allowance")',
+            data: JSON.stringify(model),
+            contentType: "application/json",
+            dataType: "json",
+            type: "POST",
+            success: function (result) {
+                $('#answer').text(JSON.stringify(result));
+            }
+        });
+    });
+
+    $('#btnReset').click(function () {
+        $("#main").html(resetHtml);
+        model = {
+            Items: [
+                {
+                    ItemSeq: 1,
+                    ItemName: '',
+                    ItemCount: 0,
+                    ItemPrice: 0,
+                    ItemAmount: 0,
+                    ItemTaxType: '',
+                    ItemWord: ''
+                }
+            ]
+        };
+    });
+</script>

@@ -1,0 +1,68 @@
+﻿@using EinvoiceIntegration.Enum
+@model EinvoiceIntegration.Models.B2B.GetRejectModel
+@{
+    ViewBag.Title = "綠界科技";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<script type="text/javascript">
+    $(function () {
+        $('#reset').click(function () {
+            location.href='@Url.Action("Index")';
+        });
+    });
+</script>
+@using (Html.BeginForm("Index", "B2BInvoiceGetRejectConfirm", FormMethod.Post))
+{
+    <h2>查詢退回確認</h2>
+    <div class="div1">
+        <table class="table">
+            <tr>
+                <th>
+                    廠商編號(必填)：
+                </th>
+                <td>
+                    @Html.TextBoxFor(m => m.MerchantID)
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    進項或銷項(必填)  0 = 銷項 1 = 進項：
+                </th>
+                <td>
+                    @Html.TextBoxFor(m => m.InvoiceCategory, new { @Value = "0" })
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    發票號碼(選填)：
+                </th>
+                <td>
+                    @Html.TextBoxFor(m => m.InvoiceNumber, new { @Value = "MJ20003273" })
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    發票開立日期(選填) yyyy/MM/dd：
+                </th>
+                <td>
+                    @Html.TextBoxFor(m => m.InvoiceDate, new { @Value = "2021-08-16", @placeholder = "yyyy/MM/dd" })
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    自訂編號(選填)：
+                </th>
+                <td>
+                    @Html.TextBoxFor(m => m.RelateNumber)
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="buttonPanel">
+        <button type="submit">送出</button>
+        <button type="button" id="reset">重新填寫</button>
+    </div>
+    <h2>顯示結果</h2>
+    <span id="answer" class="div1" style="word-wrap:break-word;">@ViewBag.message</span>
+}

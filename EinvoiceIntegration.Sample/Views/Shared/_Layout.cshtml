@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+
+    <link href="@Url.Content("~/Content/Site.css")" rel="stylesheet" type="text/css" />
+    <script src="@Url.Content("~/Scripts/jquery-1.10.2.min.js")" type="text/javascript"></script>
+
+</head>
+
+<body>
+    <div class="page">
+
+        <div id="header">
+
+            <div id="menucontainer">
+                <h2>B2C</h2>
+                <ul id="menu">
+                    <li>@Html.ActionLink("一般開立", "Index", "B2CInvoiceIssue")</li>
+                    <li>@Html.ActionLink("延遲或觸發開立發票", "Index", "B2CInvoiceDelayIssue")</li>
+                    <li>@Html.ActionLink("開立折讓(紙本)", "Index", "B2CInvoiceAllowance")</li>
+                    <li>@Html.ActionLink("開立折讓(線上)", "Index", "B2CInvoiceAllowanceByCollegiate")</li>
+                    <li>@Html.ActionLink("發票作廢", "Index", "B2CInvoiceInvalid")</li>
+                    <li>@Html.ActionLink("折讓作廢", "Index", "B2CInvoiceAllowanceInvalid")</li>
+                    <li>@Html.ActionLink("查詢發票", "Index", "B2CInvoiceGetIssue")</li>
+                    <li>@Html.ActionLink("查詢作廢", "Index", "B2CInvoiceGetInvalid")</li>
+                    <li>@Html.ActionLink("查詢折讓明細(紙本)", "Index", "B2CInvoiceGetAllowance")</li>
+                    <li>@Html.ActionLink("查詢折讓明細(線上)", "Index", "B2CInvoiceGetAllowanceByCollegiate")</li>
+                    <li>@Html.ActionLink("查詢折讓作廢明細", "Index", "B2CInvoiceGetAllowanceInvalid")</li>
+                    <li>@Html.ActionLink("發送通知", "Index", "B2CInvoiceNotify")</li>
+                    <li>@Html.ActionLink("Trigger觸發或延遲開立發票", "Index", "B2CInvoiceTriggerIssue")</li>
+                </ul>
+                <ul id="menu">
+                    <li>@Html.ActionLink("檢查手機條碼", "Index", "B2CInvoiceCheckBarcode")</li>
+                    <li>@Html.ActionLink("檢查愛心碼", "Index", "B2CInvoiceCheckLoveCode")</li>
+                    <li>@Html.ActionLink("查詢字軌", "Index", "B2CInvoiceGetInvoiceWordSetting")</li>
+                </ul>
+            </div>
+
+            <div id="menucontainer">
+                <h2>B2B</h2>
+                <ul id="menu">
+                    <li>@Html.ActionLink("一般開立", "Index", "B2BInvoiceIssue")</li>
+                    <li>@Html.ActionLink("開立折讓", "Index", "B2BInvoiceAllowance")</li>
+                    <li>@Html.ActionLink("發票作廢", "Index", "B2BInvoiceInvalid")</li>
+                    <li>@Html.ActionLink("折讓作廢", "Index", "B2BInvoiceCancelAllowance")</li>
+                    <li>@Html.ActionLink("退回", "Index", "B2BInvoiceReject")</li>
+                    <li>@Html.ActionLink("查詢發票", "Index", "B2BInvoiceGetIssue")</li>
+                    <li>@Html.ActionLink("查詢作廢", "Index", "B2BInvoiceGetInvalid")</li>
+                    <li>@Html.ActionLink("查詢折讓明細", "Index", "B2BInvoiceGetAllowance")</li>
+                    <li>@Html.ActionLink("查詢折讓作廢明細", "Index", "B2BInvoiceGetAllowanceInvalid")</li>
+                    <li>@Html.ActionLink("查詢退回", "Index", "B2BInvoiceGetReject")</li>
+                    <li>@Html.ActionLink("發送通知", "Index", "B2BInvoiceNotify")</li>
+                    <li>@Html.ActionLink("折讓-接收確認", "Index", "B2BInvoiceAllowanceConfirm")</li>
+                    <li>@Html.ActionLink("折讓作廢-接收確認", "Index", "B2BInvoiceCancelAllowanceConfirm")</li>
+                    <li>@Html.ActionLink("退回-接收確認", "Index", "B2BInvoiceRejectConfirm")</li>
+                    <li>@Html.ActionLink("查詢折讓確認", "Index", "B2BInvoiceGetAllowanceConfirm")</li>
+                </ul>
+                <ul id="menu">
+                    <li>@Html.ActionLink("查詢折讓作廢確認", "Index", "B2BInvoiceGetAllowanceInvalidConfirm")</li>
+                    <li>@Html.ActionLink("查詢作廢確認", "Index", "B2BInvoiceGetInvalidConfirm")</li>
+                    <li>@Html.ActionLink("查詢開立確認", "Index", "B2BInvoiceGetIssueConfirm")</li>
+                    <li>@Html.ActionLink("查詢退回確認", "Index", "B2BInvoiceGetRejectConfirm")</li>
+                    <li>@Html.ActionLink("查詢字軌", "Index", "B2BInvoiceGetInvoiceWordSetting")</li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="main">
+            @RenderBody()
+            <div id="footer">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
