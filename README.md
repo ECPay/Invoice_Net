@@ -33,7 +33,7 @@
 
 * 綠界技術服務工程師信箱：techsupport@ecpay.com.tw
 
-### 5.版權宣告
+### 5. 版權宣告
 
 * License: GPLv2 or later
 * License URI: https://www.gnu.org/licenses/gpl-2.0.html
