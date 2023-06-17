@@ -172,3 +172,5 @@ D:\Tim\#工單\##pendingTooLong\#98943(SDK範例)\新版提供給SA的(20220715�
 D:\Tim\#工單\##pendingTooLong\#98943(SDK範例)\新版提供給SA的(20220715更新bootstrap3.0.0到3.4.1)\EinvoiceIntegration\EinvoiceIntegration.Sample\obj\Debug\EinvoiceIntegration.Sample.csproj.CopyComplete
 D:\Tim\#工單\##pendingTooLong\#98943(SDK範例)\新版提供給SA的(20220715更新bootstrap3.0.0到3.4.1)\EinvoiceIntegration\EinvoiceIntegration.Sample\obj\Debug\EinvoiceIntegration.Sample.dll
 D:\Tim\#工單\##pendingTooLong\#98943(SDK範例)\新版提供給SA的(20220715更新bootstrap3.0.0到3.4.1)\EinvoiceIntegration\EinvoiceIntegration.Sample\obj\Debug\EinvoiceIntegration.Sample.pdb
+D:\備份資料\GIT\ECgithub\Invoice_Net\EinvoiceIntegration.Sample\obj\Debug\EinvoiceIntegration.Sample.dll
+D:\備份資料\GIT\ECgithub\Invoice_Net\EinvoiceIntegration.Sample\obj\Debug\EinvoiceIntegration.Sample.pdb
