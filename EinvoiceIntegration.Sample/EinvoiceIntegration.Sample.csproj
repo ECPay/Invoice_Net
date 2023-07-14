@@ -43,6 +43,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EinvoiceIntegration">
+      <HintPath>D:\備份資料\GIT\ECgithub\Invoice_Net\EinvoiceIntegration.Sample\bin\EinvoiceIntegration.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\..\..\dll_reference\Newtonsoft.Json.dll</HintPath>
@@ -215,12 +218,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\EinvoiceIntegration\EinvoiceIntegration.csproj">
-      <Project>{6ffef33a-2f8d-4775-aeea-e8f1d264e993}</Project>
-      <Name>EinvoiceIntegration</Name>
-    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
