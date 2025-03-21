@@ -155,5 +155,20 @@ namespace EinvoiceIntegration.Sample.Models.B2C
         /// 特種稅率類別
         /// </summary>
         public SpecialTaxTypeEnum SpecialTaxType { get; set; }
+
+        /// <summary>
+        /// 通路商編號
+        /// </summary>
+        public ChannelPartnerEnum ChannelPartner { get; set; }
+
+        /// <summary>
+        /// 產品服務別代號
+        /// </summary>
+        public string ProductServiceID { get; set; }
+
+        /// <summary>
+        /// 零稅率原因
+        /// </summary>
+        public ZeroTaxRateReasonEnum ZeroTaxRateReason { get; set; }
     }
 }

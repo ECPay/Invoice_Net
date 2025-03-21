@@ -18,6 +18,7 @@
                 <ul id="menu">
                     <li>@Html.ActionLink("一般開立", "Index", "B2CInvoiceIssue")</li>
                     <li>@Html.ActionLink("延遲或觸發開立發票", "Index", "B2CInvoiceDelayIssue")</li>
+                    <li>@Html.ActionLink("編輯延遲開立發票", "Index", "B2CInvoiceEditDelayIssue")</li>
                     <li>@Html.ActionLink("開立折讓(紙本)", "Index", "B2CInvoiceAllowance")</li>
                     <li>@Html.ActionLink("開立折讓(線上)", "Index", "B2CInvoiceAllowanceByCollegiate")</li>
                     <li>@Html.ActionLink("發票作廢", "Index", "B2CInvoiceInvalid")</li>
@@ -25,15 +26,31 @@
                     <li>@Html.ActionLink("查詢發票", "Index", "B2CInvoiceGetIssue")</li>
                     <li>@Html.ActionLink("查詢作廢", "Index", "B2CInvoiceGetInvalid")</li>
                     <li>@Html.ActionLink("查詢折讓明細(紙本)", "Index", "B2CInvoiceGetAllowance")</li>
+                    <li>@Html.ActionLink("查詢折讓明細(紙本多筆)", "Index", "B2CInvoiceGetAllowanceList")</li>
                     <li>@Html.ActionLink("查詢折讓明細(線上)", "Index", "B2CInvoiceGetAllowanceByCollegiate")</li>
                     <li>@Html.ActionLink("查詢折讓作廢明細", "Index", "B2CInvoiceGetAllowanceInvalid")</li>
-                    <li>@Html.ActionLink("發送通知", "Index", "B2CInvoiceNotify")</li>
-                    <li>@Html.ActionLink("Trigger觸發或延遲開立發票", "Index", "B2CInvoiceTriggerIssue")</li>
                 </ul>
                 <ul id="menu">
+                    <li>@Html.ActionLink("發送通知", "Index", "B2CInvoiceNotify")</li>
+                    <li>@Html.ActionLink("Trigger觸發或延遲開立發票", "Index", "B2CInvoiceTriggerIssue")</li>
                     <li>@Html.ActionLink("檢查手機條碼", "Index", "B2CInvoiceCheckBarcode")</li>
                     <li>@Html.ActionLink("檢查愛心碼", "Index", "B2CInvoiceCheckLoveCode")</li>
                     <li>@Html.ActionLink("查詢字軌", "Index", "B2CInvoiceGetInvoiceWordSetting")</li>
+                    <li>@Html.ActionLink("查詢財政部配號結果", "Index", "B2CInvoiceGetGovInvoiceWordSetting")</li>
+                    <li>@Html.ActionLink("新增字軌號碼", "Index", "B2CInvoiceAddInvoiceWordSetting")</li>
+                    <li>@Html.ActionLink("設定字軌號碼狀態", "Index", "B2CInvoiceUpdateInvoiceWordStatus")</li>
+                    <li>@Html.ActionLink("取得發票字軌號碼(離線)", "Index", "B2CInvoiceGetOfflineInvoiceWordSetting")</li>
+                    <li>@Html.ActionLink("上傳開立發票(離線)", "Index", "B2CInvoiceOfflineIssue")</li>
+                    <li>@Html.ActionLink("上傳作廢發票(離線)", "Index", "B2CInvoiceOfflineInvalid")</li>
+                    <li>@Html.ActionLink("發票列印", "Index", "B2CInvoicePrint")</li>
+                    <li>@Html.ActionLink("管理離線機台(離線)", "Index", "B2CInvoiceOfflineMerchantPosSetting")</li>
+                </ul>
+                <ul id="menu">
+                    <li>@Html.ActionLink("查詢離線機台(離線)", "Index", "B2CInvoiceQueryOfflineMerchantPosSetting")</li>
+                    <li>@Html.ActionLink("取得發票配號(離線)", "Index", "B2CInvoiceGetOfflineInvoiceWordSettingNumber")</li>
+                    <li>@Html.ActionLink("取得廠商資訊(離線)", "Index", "B2CInvoiceGetOfflineMerchantInfo")</li>
+                    <li>@Html.ActionLink("查詢特定多筆發票", "Index", "B2CInvoiceGetIssueList")</li>
+                    <li>@Html.ActionLink("統一編號驗證", "Index", "B2CInvoiceGetCompanyNameByTaxID")</li>
                 </ul>
             </div>
 
@@ -62,6 +79,12 @@
                     <li>@Html.ActionLink("查詢開立確認", "Index", "B2BInvoiceGetIssueConfirm")</li>
                     <li>@Html.ActionLink("查詢退回確認", "Index", "B2BInvoiceGetRejectConfirm")</li>
                     <li>@Html.ActionLink("查詢字軌", "Index", "B2BInvoiceGetInvoiceWordSetting")</li>
+                    <li>@Html.ActionLink("查詢財政部配號結果", "Index", "B2BInvoiceGetGovInvoiceWordSetting")</li>
+                    <li>@Html.ActionLink("新增字軌號碼", "Index", "B2BInvoiceAddInvoiceWordSetting")</li>
+                    <li>@Html.ActionLink("設定字軌號碼狀態", "Index", "B2BInvoiceUpdateInvoiceWordStatus")</li>
+                    <li>@Html.ActionLink("發票列印", "Index", "B2BInvoicePrint")</li>
+                    <li>@Html.ActionLink("發票下載PDF檔", "Index", "B2BInvoiceDownloadB2BPdf")</li>
+                    <li>@Html.ActionLink("統一編號驗證", "Index", "B2BInvoiceGetCompanyNameByTaxID")</li>
                 </ul>
             </div>
         </div>

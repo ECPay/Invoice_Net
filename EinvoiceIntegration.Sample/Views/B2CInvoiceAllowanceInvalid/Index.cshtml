@@ -29,7 +29,7 @@
                     發票號碼(必填)：
                 </th>
                 <td>
-                    @Html.TextBoxFor(m => m.InvoiceNo, new { @Value = "MJ80025125" })
+                    @Html.TextBoxFor(m => m.InvoiceNo)
                 </td>
             </tr>
             <tr>
@@ -37,7 +37,7 @@
                     折讓單編號(必填)：
                 </th>
                 <td>
-                    @Html.TextBoxFor(m => m.AllowanceNo, new { @Value = "2021081609445201" })
+                    @Html.TextBoxFor(m => m.AllowanceNo)
                 </td>
             </tr>
             <tr>
@@ -45,7 +45,7 @@
                     作廢原因(必填)：
                 </th>
                 <td>
-                    @Html.TextBoxFor(m => m.Reason, new { @Value = "測試串接進行折讓作廢" })
+                    @Html.TextBoxFor(m => m.Reason)
                 </td>
             </tr>
         </table>

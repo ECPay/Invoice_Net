@@ -20,7 +20,7 @@
                 發票號碼(必填)：
             </th>
             <td>
-                @Html.TextBoxFor(m => m.InvoiceNo, new { @Value = "MJ80024679" })
+                @Html.TextBoxFor(m => m.InvoiceNo)
             </td>
         </tr>
         <tr>
@@ -28,7 +28,7 @@
                 發票日期(必填) yyyy-MM-dd：
             </th>
             <td>
-                @Html.TextBoxFor(m => m.InvoiceDate, new { @Value = "2021-08-13", @placeholder = "yyyy-MM-dd" })
+                @Html.TextBoxFor(m => m.InvoiceDate, new { @placeholder = "yyyy-MM-dd" })
             </td>
         </tr>
         <tr>
@@ -36,7 +36,7 @@
                 通知類別(必填) S:簡訊 E:電子郵件 A:皆通知時 N:皆不通知：
             </th>
             <td>
-                @Html.TextBoxFor(m => m.AllowanceNotify, new { @Value = "E" })
+                @Html.TextBoxFor(m => m.AllowanceNotify)
             </td>
         </tr>
         <tr>
@@ -44,7 +44,7 @@
                 折讓單總金額(含稅) (必填)：
             </th>
             <td>
-                @Html.TextBoxFor(m => m.AllowanceAmount, new { @Value = "10" })
+                @Html.TextBoxFor(m => m.AllowanceAmount)
             </td>
         </tr>
         <tr>
@@ -60,7 +60,7 @@
                 通知電子信箱(選填)：
             </th>
             <td>
-                @Html.TextBoxFor(m => m.NotifyMail, new { @Value = "test@ecpay.com.tw" })
+                @Html.TextBoxFor(m => m.NotifyMail)
             </td>
         </tr>
         <tr>

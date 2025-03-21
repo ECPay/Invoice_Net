@@ -26,15 +26,15 @@
             </tr>
             <tr>
                 <th>
-                    特店自訂編號(選填)：
+                    特店自訂編號(必填)：
                 </th>
                 <td>
-                    @Html.TextBoxFor(m => m.RelateNumber, new { @Value = "ecPaytest" })
+                    @Html.TextBoxFor(m => m.RelateNumber)
                 </td>
             </tr>
             <tr>
                 <th>
-                    發票開立日期(選填) yyyy-MM-dd：
+                    發票開立日期(必填) yyyy-MM-dd：
                 </th>
                 <td>
                     @Html.TextBoxFor(m => m.InvoiceDate)
@@ -42,7 +42,7 @@
             </tr>
             <tr>
                 <th>
-                    發票號碼(選填)：
+                    發票號碼(必填)：
                 </th>
                 <td>
                     @Html.TextBoxFor(m => m.InvoiceNo)

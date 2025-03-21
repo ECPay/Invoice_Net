@@ -29,7 +29,7 @@
                     通知類別(必填) 發送內容類型 I: 發票開立 II: 發票作廢 A: 折讓開立 AI: 折讓作廢 AW:發票中獎：
                 </th>
                 <td>
-                    @Html.TextBoxFor(m => m.InvoiceTag, new { @Value = "I" })
+                    @Html.TextBoxFor(m => m.InvoiceTag)
                 </td>
             </tr>
             <tr>
@@ -37,7 +37,7 @@
                     發送對象(必填) C: 發送通知給客戶 M: 發送通知給合作特店 A: 皆發送通知：
                 </th>
                 <td>
-                    @Html.TextBoxFor(m => m.Notified, new { @Value = "C" })
+                    @Html.TextBoxFor(m => m.Notified)
                 </td>
             </tr>
             <tr>
@@ -45,7 +45,7 @@
                     發送方式(必填) S:簡訊 E:電子郵件 A:皆通知時：
                 </th>
                 <td>
-                    @Html.TextBoxFor(m => m.Notify, new { @Value = "E" })
+                    @Html.TextBoxFor(m => m.Notify)
                 </td>
             </tr>
             <tr>
@@ -53,7 +53,7 @@
                     發票號碼(必填)：
                 </th>
                 <td>
-                    @Html.TextBoxFor(m => m.InvoiceNo, new { @Value = "MJ80024679" })
+                    @Html.TextBoxFor(m => m.InvoiceNo)
                 </td>
             </tr>
             <tr>

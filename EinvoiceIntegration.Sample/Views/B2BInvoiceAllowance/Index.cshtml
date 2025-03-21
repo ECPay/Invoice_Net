@@ -20,7 +20,7 @@
                 折讓金額總計(未稅)(必填)：
             </th>
             <td>
-                @Html.TextBoxFor(m => m.TotalAmount, new { @Value = "2" })
+                @Html.TextBoxFor(m => m.TotalAmount)
             </td>
         </tr>
         <tr>
@@ -33,7 +33,7 @@
         </tr>
         <tr>
             <th>
-                營業稅額(必填)：
+                營業稅額：
             </th>
             <td>
                 @Html.TextBoxFor(m => m.TaxAmount)
@@ -66,10 +66,10 @@
                     <thead>
                         <tr>
                             <th>
-                                原發票號碼(必填)
+                                原發票號碼(選填)
                             </th>
                             <th>
-                                原發票日期(必填) yyyy-MM-dd
+                                原發票日期(選填) yyyy-MM-dd
                             </th>
                             <th>
                                 原發票號碼排序(必填)
@@ -115,7 +115,7 @@
 
     //商品明細 新增
     $('#lnkAddItem').click(function () {
-        var newItemHtml = '<tr><td><input type="text" name="Details.OriginalInvoiceNumber" value="MJ20003272" /></td><td><input type="text" name="Details.OriginalInvoiceDate" value="2021-08-16" /></td><td><input type="text" name="Details.OriginalSequenceNumber" value="1" /></td><td><input type="text" name="Details.ItemName" value="T1" /></td><td><input type="text" name="Details.ItemCount" value="1" /></td><td><input type="text" name="Details.ItemPrice" value="2" /><td><input type="text" name="Details.ItemAmount" value="2" /></td><td><input type="text" name="Details.Tax" value="0" /></td></tr>';
+        var newItemHtml = '<tr><td><input type="text" name="Details.OriginalInvoiceNumber" /></td><td><input type="text" name="Details.OriginalInvoiceDate" /></td><td><input type="text" name="Details.OriginalSequenceNumber" value="1" /></td><td><input type="text" name="Details.ItemName" value="T1" /></td><td><input type="text" name="Details.ItemCount" value="1" /></td><td><input type="text" name="Details.ItemPrice" value="10" /><td><input type="text" name="Details.ItemAmount" value="10" /></td><td><input type="text" name="Details.Tax" value="10" /></td></tr>';
         var $item = $(newItemHtml).appendTo('#tbItems > tbody');
         model.Details.push({
             OriginalInvoiceNumber: '',

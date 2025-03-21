@@ -28,7 +28,7 @@
                 商家自訂訂單編號(必填)：
             </th>
             <td>
-                @Html.TextBoxFor(m => m.RelateNumber, new { @Value = "ecPaytest" })
+                @Html.TextBoxFor(m => m.RelateNumber, new { @Value = "20151013163101" })
             </td>
         </tr>
         <tr>
@@ -52,7 +52,7 @@
                 客戶名稱(選填)：
             </th>
             <td>
-                @Html.TextBoxFor(m => m.CustomerName, new { @Value = "" })
+                @Html.TextBoxFor(m => m.CustomerName, new { @Value = "翁健雄" })
             </td>
         </tr>
         <tr>
@@ -60,7 +60,7 @@
                 客戶地址(選填)：
             </th>
             <td>
-                @Html.TextBoxFor(m => m.CustomerAddr, new { @Value = "", @class = "text-long" })
+                @Html.TextBoxFor(m => m.CustomerAddr, new { @Value = "116臺北市文山區(木柵)辛亥路七段五巷四弄一號四樓", @class = "text-long" })
             </td>
         </tr>
         <tr>
@@ -68,7 +68,7 @@
                 客戶手機號碼(選填)：
             </th>
             <td>
-                @Html.TextBoxFor(m => m.CustomerPhone, new { @Value = "0912345678" })
+                @Html.TextBoxFor(m => m.CustomerPhone, new { @Value = "0960141549" })
             </td>
         </tr>
         <tr>
@@ -76,7 +76,7 @@
                 客戶電子信箱(選填)：
             </th>
             <td>
-                @Html.TextBoxFor(m => m.CustomerEmail, new { @Value = "test@ecpay.com.tw" })
+                @Html.TextBoxFor(m => m.CustomerEmail, new { @Value = "wjs6238@gmail.com" })
             </td>
         </tr>
         <tr>
@@ -108,7 +108,7 @@
                 愛心碼(選填)：
             </th>
             <td>
-                @Html.TextBoxFor(m => m.LoveCode, new { @Value = "", @class = "text-short" })
+                @Html.TextBoxFor(m => m.LoveCode, new { @Value = "515", @class = "text-short" })
             </td>
         </tr>
         <tr>
@@ -231,6 +231,38 @@
                 @Html.DropDownListFor(m => m.InvType, new SelectList(Enum.GetValues(typeof(TrackTypeEnum)), TrackTypeEnum.Normal))
             </td>
         </tr>
+        <tr>
+            <th>
+                商品單價是否含稅(選填)：
+            </th>
+            <td>
+                @Html.DropDownListFor(m => m.Vat, new SelectList(Enum.GetValues(typeof(VatEnum)), VatEnum.Yes))
+            </td>
+        </tr>
+        <tr>
+            <th>
+                通路商編號(選填):
+            </th>
+            <td>
+                @Html.DropDownListFor(m => m.ChannelPartner, new SelectList(Enum.GetValues(typeof(ChannelPartnerEnum)), ChannelPartnerEnum.None))
+            </td>
+        </tr>
+        <tr>
+            <th>
+                產品服務別代號：
+            </th>
+            <td>
+                @Html.TextBoxFor(m => m.ProductServiceID)
+            </td>
+        </tr>
+        <tr>
+            <th>
+                零稅率原因：
+            </th>
+            <td>
+                @Html.DropDownListFor(m => m.ZeroTaxRateReason, new SelectList(Enum.GetValues(typeof(ZeroTaxRateReasonEnum)), ZeroTaxRateReasonEnum.None))
+            </td>
+        </tr>
     </table>
 </div>
 <div class="buttonPanel">
@@ -298,6 +330,9 @@
         model.PayType = $('#PayType').val();
         model.NotifyURL = $('#NotifyURL').val();
         model.SpecialTaxType = $('#SpecialTaxType').val();
+        model.ChannelPartner = $('#ChannelPartner').val();
+        model.ProductServiceID = $('#ProductServiceID').val();
+        model.ZeroTaxRateReason = $('#ZeroTaxRateReason').val();
         var $rows = $("#tbItems > tbody > tr");
         $('#tbItems > tbody > tr').each(function (i) {
             var $tr = $($rows[i]);

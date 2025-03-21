@@ -43,12 +43,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="EinvoiceIntegration">
-      <HintPath>D:\備份資料\GIT\ECgithub\Invoice_Net\EinvoiceIntegration.Sample\bin\EinvoiceIntegration.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Newtonsoft.Json">
-      <HintPath>..\..\..\dll_reference\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\dll_reference\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
@@ -94,8 +91,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\bootstrap-theme.css" />
-    <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
@@ -103,14 +98,6 @@
     <Content Include="Global.asax" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
-    <Content Include="fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="Content\bootstrap.min.css.map" />
-    <Content Include="Content\bootstrap.css.map" />
-    <Content Include="Content\bootstrap-theme.min.css.map" />
-    <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -120,42 +107,63 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Controllers\B2BInvoiceAllowanceConfirmController.cs" />
-    <Compile Include="Controllers\B2BInvoiceAllowanceController.cs" />
-    <Compile Include="Controllers\B2BInvoiceCancelAllowanceConfirmController.cs" />
-    <Compile Include="Controllers\B2BInvoiceCancelAllowanceController.cs" />
-    <Compile Include="Controllers\B2BInvoiceGetAllowanceConfirmController.cs" />
-    <Compile Include="Controllers\B2BInvoiceGetAllowanceController.cs" />
-    <Compile Include="Controllers\B2BInvoiceGetAllowanceInvalidConfirmController.cs" />
-    <Compile Include="Controllers\B2BInvoiceGetAllowanceInvalidController.cs" />
-    <Compile Include="Controllers\B2BInvoiceGetInvalidConfirmController.cs" />
-    <Compile Include="Controllers\B2BInvoiceGetInvalidController.cs" />
-    <Compile Include="Controllers\B2BInvoiceGetInvoiceWordSettingController.cs" />
-    <Compile Include="Controllers\B2CInvoiceGetInvoiceWordSettingController.cs" />
-    <Compile Include="Controllers\B2BInvoiceGetIssueConfirmController.cs" />
-    <Compile Include="Controllers\B2BInvoiceGetIssueController.cs" />
-    <Compile Include="Controllers\B2BInvoiceGetRejectConfirmController.cs" />
-    <Compile Include="Controllers\B2BInvoiceGetRejectController.cs" />
-    <Compile Include="Controllers\B2BInvoiceInvalidController.cs" />
-    <Compile Include="Controllers\B2BInvoiceNotifyController.cs" />
-    <Compile Include="Controllers\B2BInvoiceRejectConfirmController.cs" />
-    <Compile Include="Controllers\B2BInvoiceRejectController.cs" />
-    <Compile Include="Controllers\B2CInvoiceAllowanceByCollegiateController.cs" />
-    <Compile Include="Controllers\B2CInvoiceAllowanceController.cs" />
-    <Compile Include="Controllers\B2CInvoiceAllowanceInvalidController.cs" />
-    <Compile Include="Controllers\B2CInvoiceCheckLoveCodeController.cs" />
-    <Compile Include="Controllers\B2CInvoiceGetAllowanceByCollegiateController.cs" />
-    <Compile Include="Controllers\B2CInvoiceDelayIssueController.cs" />
-    <Compile Include="Controllers\B2CInvoiceGetAllowanceController.cs" />
-    <Compile Include="Controllers\B2CInvoiceGetAllowanceInvalidController.cs" />
-    <Compile Include="Controllers\B2CInvoiceGetInvalidController.cs" />
-    <Compile Include="Controllers\B2CInvoiceGetIssueController.cs" />
-    <Compile Include="Controllers\B2BInvoiceIssueController.cs" />
-    <Compile Include="Controllers\B2CInvoiceInvalidController.cs" />
-    <Compile Include="Controllers\B2CInvoiceIssueController.cs" />
-    <Compile Include="Controllers\B2CInvoiceCheckBarcodeController.cs" />
-    <Compile Include="Controllers\B2CInvoiceNotifyController.cs" />
-    <Compile Include="Controllers\B2CInvoiceTriggerIssueController.cs" />
+    <Compile Include="Controllers\B2B\B2BInvoiceAddInvoiceWordSettingController.cs" />
+    <Compile Include="Controllers\B2B\B2BInvoiceAllowanceConfirmController.cs" />
+    <Compile Include="Controllers\B2B\B2BInvoiceAllowanceController.cs" />
+    <Compile Include="Controllers\B2B\B2BInvoiceCancelAllowanceConfirmController.cs" />
+    <Compile Include="Controllers\B2B\B2BInvoiceCancelAllowanceController.cs" />
+    <Compile Include="Controllers\B2B\B2BInvoiceDownloadB2BPdfController.cs" />
+    <Compile Include="Controllers\B2B\B2BInvoiceGetAllowanceConfirmController.cs" />
+    <Compile Include="Controllers\B2B\B2BInvoiceGetAllowanceController.cs" />
+    <Compile Include="Controllers\B2B\B2BInvoiceGetAllowanceInvalidConfirmController.cs" />
+    <Compile Include="Controllers\B2B\B2BInvoiceGetAllowanceInvalidController.cs" />
+    <Compile Include="Controllers\B2B\B2BInvoiceGetCompanyNameByTaxIDController.cs" />
+    <Compile Include="Controllers\B2B\B2BInvoiceGetGovInvoiceWordSettingController.cs" />
+    <Compile Include="Controllers\B2B\B2BInvoiceGetInvalidConfirmController.cs" />
+    <Compile Include="Controllers\B2B\B2BInvoiceGetInvalidController.cs" />
+    <Compile Include="Controllers\B2B\B2BInvoiceGetInvoiceWordSettingController.cs" />
+    <Compile Include="Controllers\B2B\B2BInvoicePrintController.cs" />
+    <Compile Include="Controllers\B2B\B2BInvoiceUpdateInvoiceWordStatusController.cs" />
+    <Compile Include="Controllers\B2C\B2CInvoiceEditDelayIssueController.cs" />
+    <Compile Include="Controllers\B2C\B2CInvoiceGetCompanyNameByTaxIDController.cs" />
+    <Compile Include="Controllers\B2C\B2CInvoiceGetAllowanceListController.cs" />
+    <Compile Include="Controllers\B2C\B2CInvoiceGetInvoiceWordSettingController.cs" />
+    <Compile Include="Controllers\B2B\B2BInvoiceGetIssueConfirmController.cs" />
+    <Compile Include="Controllers\B2B\B2BInvoiceGetIssueController.cs" />
+    <Compile Include="Controllers\B2B\B2BInvoiceGetRejectConfirmController.cs" />
+    <Compile Include="Controllers\B2B\B2BInvoiceGetRejectController.cs" />
+    <Compile Include="Controllers\B2B\B2BInvoiceInvalidController.cs" />
+    <Compile Include="Controllers\B2B\B2BInvoiceNotifyController.cs" />
+    <Compile Include="Controllers\B2B\B2BInvoiceRejectConfirmController.cs" />
+    <Compile Include="Controllers\B2B\B2BInvoiceRejectController.cs" />
+    <Compile Include="Controllers\B2C\B2CInvoiceAllowanceByCollegiateController.cs" />
+    <Compile Include="Controllers\B2C\B2CInvoiceAllowanceController.cs" />
+    <Compile Include="Controllers\B2C\B2CInvoiceAllowanceInvalidController.cs" />
+    <Compile Include="Controllers\B2C\B2CInvoiceCheckLoveCodeController.cs" />
+    <Compile Include="Controllers\B2C\B2CInvoiceGetAllowanceByCollegiateController.cs" />
+    <Compile Include="Controllers\B2C\B2CInvoiceDelayIssueController.cs" />
+    <Compile Include="Controllers\B2C\B2CInvoiceGetAllowanceController.cs" />
+    <Compile Include="Controllers\B2C\B2CInvoiceGetAllowanceInvalidController.cs" />
+    <Compile Include="Controllers\B2C\B2CInvoiceGetInvalidController.cs" />
+    <Compile Include="Controllers\B2C\B2CInvoiceGetIssueListController.cs" />
+    <Compile Include="Controllers\B2C\B2CInvoiceGetIssueController.cs" />
+    <Compile Include="Controllers\B2B\B2BInvoiceIssueController.cs" />
+    <Compile Include="Controllers\B2C\B2CInvoiceGetOfflineInvoiceWordSettingNumberController.cs" />
+    <Compile Include="Controllers\B2C\B2CInvoiceGetOfflineMerchantInfoController.cs" />
+    <Compile Include="Controllers\B2C\B2CInvoiceInvalidController.cs" />
+    <Compile Include="Controllers\B2C\B2CInvoiceOfflineInvalidController.cs" />
+    <Compile Include="Controllers\B2C\B2CInvoiceOfflineMerchantPosSettingController.cs" />
+    <Compile Include="Controllers\B2C\B2CInvoicePrintController.cs" />
+    <Compile Include="Controllers\B2C\B2CInvoiceIssueController.cs" />
+    <Compile Include="Controllers\B2C\B2CInvoiceCheckBarcodeController.cs" />
+    <Compile Include="Controllers\B2C\B2CInvoiceNotifyController.cs" />
+    <Compile Include="Controllers\B2C\B2CInvoiceOfflineIssueController.cs" />
+    <Compile Include="Controllers\B2C\B2CInvoiceQueryOfflineMerchantPosSettingController.cs" />
+    <Compile Include="Controllers\B2C\B2CInvoiceTriggerIssueController.cs" />
+    <Compile Include="Controllers\B2C\B2CInvoiceAddInvoiceWordSettingController.cs" />
+    <Compile Include="Controllers\B2C\B2CInvoiceGetGovInvoiceWordSettingController.cs" />
+    <Compile Include="Controllers\B2C\B2CInvoiceGetOfflineInvoiceWordSettingController.cs" />
+    <Compile Include="Controllers\B2C\B2CInvoiceUpdateInvoiceWordStatusController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -165,10 +173,14 @@
     <Compile Include="Models\B2C\InvoiceInvalid.cs" />
     <Compile Include="Models\B2C\InvoiceIssue.cs" />
     <Compile Include="Models\B2C\InvoiceTriggerIssue.cs" />
+    <Compile Include="Models\B2C\OfflineIssue.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <None Include="packages.config" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
@@ -209,6 +221,27 @@
     <Content Include="Views\B2BInvoiceInvalid\Index.cshtml" />
     <Content Include="Views\B2CInvoiceGetInvoiceWordSetting\Index.cshtml" />
     <Content Include="Views\B2BInvoiceGetInvoiceWordSetting\Index.cshtml" />
+    <Content Include="Views\B2CInvoiceGetGovInvoiceWordSetting\Index.cshtml" />
+    <Content Include="Views\B2CInvoiceAddInvoiceWordSetting\Index.cshtml" />
+    <Content Include="Views\B2CInvoiceUpdateInvoiceWordStatus\Index.cshtml" />
+    <Content Include="Views\B2CInvoiceGetOfflineInvoiceWordSetting\Index.cshtml" />
+    <Content Include="Views\B2CInvoiceOfflineIssue\Index.cshtml" />
+    <Content Include="Views\B2CInvoicePrint\Index.cshtml" />
+    <Content Include="Views\B2CInvoiceOfflineInvalid\Index.cshtml" />
+    <Content Include="Views\B2BInvoiceGetGovInvoiceWordSetting\Index.cshtml" />
+    <Content Include="Views\B2BInvoiceAddInvoiceWordSetting\Index.cshtml" />
+    <Content Include="Views\B2BInvoiceUpdateInvoiceWordStatus\Index.cshtml" />
+    <Content Include="Views\B2CInvoiceGetAllowanceList\Index.cshtml" />
+    <Content Include="Views\B2CInvoiceOfflineMerchantPosSetting\Index.cshtml" />
+    <Content Include="Views\B2CInvoiceQueryOfflineMerchantPosSetting\Index.cshtml" />
+    <Content Include="Views\B2CInvoiceGetOfflineInvoiceWordSettingNumber\Index.cshtml" />
+    <Content Include="Views\B2CInvoiceGetOfflineMerchantInfo\Index.cshtml" />
+    <Content Include="Views\B2BInvoicePrint\Index.cshtml" />
+    <Content Include="Views\B2CInvoiceGetIssueList\Index.cshtml" />
+    <Content Include="Views\B2CInvoiceGetCompanyNameByTaxID\Index.cshtml" />
+    <Content Include="Views\B2BInvoiceGetCompanyNameByTaxID\Index.cshtml" />
+    <Content Include="Views\B2CInvoiceEditDelayIssue\Index.cshtml" />
+    <Content Include="Views\B2BInvoiceDownloadB2BPdf\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -218,6 +251,12 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EinvoiceIntegration\EinvoiceIntegration.csproj">
+      <Project>{6ffef33a-2f8d-4775-aeea-e8f1d264e993}</Project>
+      <Name>EinvoiceIntegration</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

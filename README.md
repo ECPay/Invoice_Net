@@ -26,8 +26,9 @@
 
 ### 3. 使用教學
 
-* 請參考串接文件 B2B https://www.ecpay.com.tw/Content/files/gw_i200.pdf
-* 請參考串接文件 B2C https://www.ecpay.com.tw/Content/files/ecpay_004.pdf
+* 請參考串接文件 B2B 存證 https://developers.ecpay.com.tw/?p=24139
+* 請參考串接文件 B2B 交換 https://developers.ecpay.com.tw/?p=25224
+* 請參考串接文件 B2C https://developers.ecpay.com.tw/?p=7809
 
 ### 4. 聯絡我們
 

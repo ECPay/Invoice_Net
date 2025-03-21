@@ -29,7 +29,7 @@
                     發票號碼(必填)：
                 </th>
                 <td>
-                    @Html.TextBoxFor(m => m.InvoiceNumber, new { @Value = "MJ20003273" })
+                    @Html.TextBoxFor(m => m.InvoiceNumber)
                 </td>
             </tr>
             <tr>
@@ -37,7 +37,7 @@
                     發票開立日期(必填) yyyy/MM/dd：
                 </th>
                 <td>
-                    @Html.TextBoxFor(m => m.InvoiceDate, new { @Value = "2021-08-16", @placeholder = "yyyy/MM/dd" })
+                    @Html.TextBoxFor(m => m.InvoiceDate, new { @placeholder = "yyyy/MM/dd" })
                 </td>
             </tr>
             <tr>

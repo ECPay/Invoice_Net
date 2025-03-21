@@ -31,7 +31,7 @@
                     4: 7-8月 ,5: 9-10月 ,6: 11-12月<br />
                 </th>
                 <td>
-                    @Html.TextBoxFor(m => m.InvoiceTerm, new { @Value = "0" })
+                    @Html.TextBoxFor(m => m.InvoiceTerm)
                 </td>
             </tr>
             <tr>
@@ -40,7 +40,7 @@
                     格式為民國年 ex:109
                 </th>
                 <td>
-                    @Html.TextBoxFor(m => m.InvoiceYear, new { @Value = "110" })
+                    @Html.TextBoxFor(m => m.InvoiceYear)
                 </td>
             </tr>
             <tr>
@@ -50,16 +50,16 @@
                     4:暫停中,5:待審核,6:審核不通過<br />
                 </th>
                 <td>
-                    @Html.TextBoxFor(m => m.UseStatus, new { @Value = "0" })
+                    @Html.TextBoxFor(m => m.UseStatus)
                 </td>
             </tr>
             <tr>
                 <th>
                     發票類別(必填)：<br />
-                    0:全部, 1:B2C, 2:B2B
+                    0:全部, 1:B2C, 2:B2B, 3:POS, 4:Offlines
                 </th>
                 <td>
-                    @Html.TextBoxFor(m => m.InvoiceCategory, new { @Value = "1" })
+                    @Html.TextBoxFor(m => m.InvoiceCategory)
                 </td>
             </tr>
             <tr>
@@ -68,7 +68,7 @@
                     07:一般稅額發票, 08:特種稅額發票
                 </th>
                 <td>
-                    @Html.TextBoxFor(m => m.InvType, new { @Value = "07" })
+                    @Html.TextBoxFor(m => m.InvType)
                 </td>
             </tr>
             <tr>
@@ -78,7 +78,15 @@
                 <td>
                     @Html.TextBoxFor(m => m.InvoiceHeader)
                 </td>
-            </tr>            
+            </tr>
+            <tr>
+                <th>
+                    產品服務別代號：
+                </th>
+                <td>
+                    @Html.TextBoxFor(m => m.ProductServiceID)
+                </td>
+            </tr>
         </table>
     </div>
 

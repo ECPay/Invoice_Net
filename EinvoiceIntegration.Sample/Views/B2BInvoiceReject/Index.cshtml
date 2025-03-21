@@ -29,7 +29,7 @@
                     發票號碼(必填)：
                 </th>
                 <td>
-                    @Html.TextBoxFor(m => m.InvoiceNumber, new { @Value = "MJ20002503" })
+                    @Html.TextBoxFor(m => m.InvoiceNumber)
                 </td>
             </tr>
             <tr>
@@ -37,7 +37,7 @@
                     發票開立日期(必填) yyyy/MM/dd：
                 </th>
                 <td>
-                    @Html.TextBoxFor(m => m.InvoiceDate, new { @Value = "2021-08-09", @placeholder = "yyyy/MM/dd" })
+                    @Html.TextBoxFor(m => m.InvoiceDate, new { @placeholder = "yyyy/MM/dd" })
                 </td>
             </tr>
             <tr>
@@ -45,7 +45,7 @@
                     退回原因(必填)：
                 </th>
                 <td>
-                    @Html.TextBoxFor(m => m.Reason, new { @Value = "測試退回" })
+                    @Html.TextBoxFor(m => m.Reason)
                 </td>
             </tr>
             <tr>

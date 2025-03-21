@@ -130,5 +130,15 @@ namespace EinvoiceIntegration.Sample.Models.B2B
         /// 商品明細
         /// </summary>
         public List<Item> Items { get; set; }
+
+        /// <summary>
+        /// 特種稅率類別
+        /// </summary>
+        public SpecialTaxTypeEnum SpecialTaxType { get; set; }
+
+        /// <summary>
+        /// 零稅率原因
+        /// </summary>
+        public ZeroTaxRateReasonEnum ZeroTaxRateReason { get; set; }
     }
 }

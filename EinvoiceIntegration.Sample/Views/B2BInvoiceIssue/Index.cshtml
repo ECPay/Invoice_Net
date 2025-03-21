@@ -20,7 +20,7 @@
                 商家自訂訂單編號(必填)：
             </th>
             <td>
-                @Html.TextBoxFor(m => m.RelateNumber, new { @Value = "ecPayTestB2B" })
+                @Html.TextBoxFor(m => m.RelateNumber, new { @Value = "201907170000" })
             </td>
         </tr>
         <tr>
@@ -28,7 +28,7 @@
                 統一編號(必填)：
             </th>
             <td>
-                @Html.TextBoxFor(m => m.CustomerIdentifier, new { @Value = "12345678" })
+                @Html.TextBoxFor(m => m.CustomerIdentifier, new { @Value = "53538851" })
             </td>
         </tr>
         <tr>
@@ -36,7 +36,7 @@
                 公司地址(選填)：
             </th>
             <td>
-                @Html.TextBoxFor(m => m.CustomerAddress, new { @Value = "" })
+                @Html.TextBoxFor(m => m.CustomerAddress, new { @Value = "115台北市南港區測試用大馬路" })
             </td>
         </tr>
         <tr>
@@ -44,7 +44,7 @@
                 電話號碼(選填)：
             </th>
             <td>
-                @Html.TextBoxFor(m => m.CustomerTel, new { @Value = "" })
+                @Html.TextBoxFor(m => m.CustomerTel, new { @Value = "0212345678" })
             </td>
         </tr>
         <tr>
@@ -69,6 +69,14 @@
             </th>
             <td>
                 @Html.DropDownListFor(m => m.TaxType, new SelectList(Enum.GetValues(typeof(TaxTypeEnum)), TaxTypeEnum.Taxable))
+            </td>
+        </tr>
+        <tr>
+            <th>
+                特種稅率(課稅類別為特種稅率則必填)：
+            </th>
+            <td>
+                @Html.DropDownListFor(m => m.SpecialTaxType, new SelectList(Enum.GetValues(typeof(SpecialTaxTypeEnum)), SpecialTaxTypeEnum.None))
             </td>
         </tr>
         <tr>
@@ -159,6 +167,14 @@
                 @Html.TextBoxFor(m => m.InvoiceTime, new { @Value = "" })
             </td>
         </tr>
+        <tr>
+            <th>
+                零稅率原因：
+            </th>
+            <td>
+                @Html.DropDownListFor(m => m.ZeroTaxRateReason, new SelectList(Enum.GetValues(typeof(ZeroTaxRateReasonEnum)), ZeroTaxRateReasonEnum.None))
+            </td>
+        </tr>
     </table>
 </div>
 
@@ -215,6 +231,8 @@
         model.TotalAmount = $('#TotalAmount').val();
         model.ClearanceMark = $('#ClearanceMark').val() || null;
         model.InvoiceRemark = $('#InvoiceRemark').val();
+        model.SpecialTaxType = $('#SpecialTaxType').val();
+        model.ZeroTaxRateReason = $('#ZeroTaxRateReason').val();
         var $rows = $("#tbItems > tbody > tr");
         $('#tbItems > tbody > tr').each(function (i) {
             var $tr = $($rows[i]);
