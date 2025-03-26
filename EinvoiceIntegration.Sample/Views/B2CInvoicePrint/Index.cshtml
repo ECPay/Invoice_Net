@@ -1,0 +1,64 @@
+﻿@using EinvoiceIntegration.Enum
+@model EinvoiceIntegration.Models.B2C.InvoicePrintModel
+@{
+    ViewBag.Title = "綠界科技";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<script type="text/javascript">
+    $(function () {
+        $('#reset').click(function () {
+            location.href='@Url.Action("Index")';
+        });
+    });
+</script>
+@using (Html.BeginForm("Index", "B2CInvoicePrint", FormMethod.Post))
+{
+    <h2>發票列印</h2>
+    <div class="div1">
+        <table class="table" style="word-wrap:break-word;">
+            <tr>
+                <th>
+                    廠商編號(必填)：
+                </th>
+                <td>
+                    @Html.TextBoxFor(m => m.MerchantID)
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    發票號碼(必填)：<br />
+                    2碼字軌+8碼數字
+                </th>
+                <td>
+                    @Html.TextBoxFor(m => m.InvoiceNo)
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    發票開立日期(必填)：<br />
+                    yyyy-MM-dd
+                </th>
+                <td>
+                    @Html.TextBoxFor(m => m.InvoiceDate)
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    發票列印格式：<br />
+                    1:一般列印(單面), 2:一般列印(雙面), 3:熱感應紙列印<br />
+                    (預設為1)
+                </th>
+                <td>
+                    @Html.TextBoxFor(m => m.PrintStyle)
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="buttonPanel">
+        <button type="submit">送出</button>
+        <button type="button" id="reset">重新填寫</button>
+    </div>
+    <h2>顯示結果</h2>
+    <span id="answer" class="div1" style="word-wrap:break-word;">@ViewBag.message</span>
+}

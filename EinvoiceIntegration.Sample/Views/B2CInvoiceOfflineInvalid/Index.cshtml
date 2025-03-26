@@ -1,0 +1,65 @@
+﻿@using EinvoiceIntegration.Enum
+@model EinvoiceIntegration.Models.B2C.OfflineAPI.OfflineInvalidModel
+@{
+    /**/
+
+    ViewBag.Title = "綠界科技";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>上傳作廢發票(離線)</h2>
+@using (Html.BeginForm("Index", "B2CInvoiceOfflineInvalid", FormMethod.Post))
+{
+    <div class="div1">
+        <table class="table">
+            <tr>
+                <th>
+                    廠商編號(必填)：
+                </th>
+                <td>
+                    @Html.TextBoxFor(m => m.MerchantID)
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    發票號碼(必填)：
+                </th>
+                <td>
+                    @Html.TextBoxFor(m => m.InvoiceNo)
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    發票日期(必填)：<br />
+                    yyyy-MM-dd
+                </th>
+                <td>
+                    @Html.TextBoxFor(m => m.InvoiceDate)
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    作廢原因(必填)：
+                </th>
+                <td>
+                    @Html.TextBoxFor(m => m.Reason)
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    發票作廢日期(必填)：<br />
+                    yyyy-MM-dd
+                </th>
+                <td>
+                    @Html.TextBoxFor(m => m.InvoiceCancelDate)
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="buttonPanel">
+        <button type="submit">送出</button>
+        <button type="reset">重新填寫</button>
+    </div>
+    <h2>顯示結果</h2>
+    <span id="answer" class="div1">@ViewBag.Message</span>
+}

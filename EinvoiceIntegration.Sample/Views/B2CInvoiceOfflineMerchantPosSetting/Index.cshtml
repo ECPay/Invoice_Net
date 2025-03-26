@@ -1,0 +1,60 @@
+﻿@using EinvoiceIntegration.Enum
+@model EinvoiceIntegration.Models.B2C.OfflineAPI.OfflineMerchantPosSettingModel
+@{
+    ViewBag.Title = "綠界科技";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<script type="text/javascript">
+    $(function () {
+        $('#reset').click(function () {
+            location.href='@Url.Action("Index")';
+        });
+    });
+</script>
+@using (Html.BeginForm("Index", "B2CInvoiceOfflineMerchantPosSetting", FormMethod.Post))
+{
+    <h2>管理離線機台(離線)</h2>
+    <div class="div1">
+        <table class="table" style="word-wrap:break-word;">
+            <tr>
+                <th>
+                    廠商編號(必填)：
+                </th>
+                <td>
+                    @Html.TextBoxFor(m => m.MerchantID)
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    管理功能類別(1=新增 2=修改 3=刪除)
+                </th>
+                <td>
+                    @Html.TextBoxFor(m => m.ActionType, new { @Value = "1" })
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    離線機台ID
+                </th>
+                <td>
+                    @Html.TextBoxFor(m => m.MachineID, new { @Value = "1000" })
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    備註
+                </th>
+                <td>
+                    @Html.TextBoxFor(m => m.Remark, new { @Value = "Remark" })
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="buttonPanel">
+        <button type="submit">送出</button>
+        <button type="button" id="reset">重新填寫</button>
+    </div>
+    <h2>顯示結果</h2>
+    <span id="answer" class="div1" style="word-wrap:break-word;">@ViewBag.message</span>
+}

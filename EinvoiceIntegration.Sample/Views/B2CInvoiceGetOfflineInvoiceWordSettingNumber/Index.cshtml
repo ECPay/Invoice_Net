@@ -1,0 +1,68 @@
+﻿@using EinvoiceIntegration.Enum
+@model EinvoiceIntegration.Models.B2C.OfflineAPI.GetOfflineInvoiceWordSettingNumberModel
+@{
+    ViewBag.Title = "綠界科技";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<script type="text/javascript">
+    $(function () {
+        $('#reset').click(function () {
+            location.href='@Url.Action("Index")';
+        });
+    });
+</script>
+@using (Html.BeginForm("Index", "B2CInvoiceGetOfflineInvoiceWordSettingNumber", FormMethod.Post))
+{
+    <h2>取得發票票號(離線)</h2>
+    <div class="div1">
+        <table class="table" style="word-wrap:break-word;">
+            <tr>
+                <th>
+                    廠商編號(必填)：
+                </th>
+                <td>
+                    @Html.TextBoxFor(m => m.MerchantID)
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    發票年度(必填)：
+                </th>
+                <td>
+                    @Html.TextBoxFor(m => m.InvoiceYear, new { @Value = "110" })
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    發票期別(必填)：
+                </th>
+                <td>
+                    @Html.TextBoxFor(m => m.InvoiceTerm, new { @Value = "6" })
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    發票字軌狀態(必填)：
+                </th>
+                <td>
+                    @Html.TextBoxFor(m => m.InvoiceStatus, new { @Value = "1" })
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    離線機台ID(必填)：
+                </th>
+                <td>
+                    @Html.TextBoxFor(m => m.MachineID, new { @Value = "1000" })
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="buttonPanel">
+        <button type="submit">送出</button>
+        <button type="button" id="reset">重新填寫</button>
+    </div>
+    <h2>顯示結果</h2>
+    <span id="answer" class="div1" style="word-wrap:break-word;">@ViewBag.message</span>
+}

@@ -1,0 +1,116 @@
+﻿@using EinvoiceIntegration.Enum
+@model EinvoiceIntegration.Models.B2C.AddInvoiceWordSettingModel
+@{
+    ViewBag.Title = "綠界科技";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<script type="text/javascript">
+    $(function () {
+        $('#reset').click(function () {
+            location.href='@Url.Action("Index")';
+        });
+    });
+</script>
+@using (Html.BeginForm("Index", "B2CInvoiceAddInvoiceWordSetting", FormMethod.Post))
+{
+    <h2>新增字軌號碼</h2>
+    <div class="div1">
+        <table class="table" style="word-wrap:break-word;">
+            <tr>
+                <th>
+                    廠商編號(必填)：
+                </th>
+                <td>
+                    @Html.TextBoxFor(m => m.MerchantID)
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    發票期別(必填)：<br />
+                    不可小於當年期別<br />
+                    1: 1-2月, 2: 3-4月, 3: 5-6月, 4: 7-8月, 5: 9-10月, 6: 11-12月
+                </th>
+                <td>
+                    @Html.TextBoxFor(m => m.InvoiceTerm)
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    發票年度(必填)：<br />
+                    僅可設定當年與明年(ex:109)
+                </th>
+                <td>
+                    @Html.TextBoxFor(m => m.InvoiceYear)
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    字軌類別(必填)：<br />
+                    07:一般稅額發票   08:特種稅額發票
+                </th>
+                <td>
+                    @Html.TextBoxFor(m => m.InvType)
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    發票種類(必填)：<br />
+                    1:B2C, 2:B2B, 3:POS, 4:離線發票
+                </th>
+                <td>
+                    @Html.TextBoxFor(m => m.InvoiceCategory)
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    字軌名稱(必填)：
+                </th>
+                <td>
+                    @Html.TextBoxFor(m => m.InvoiceHeader)
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    起始發票編號(必填)：<br />
+                    請輸入8碼發票號碼，尾數需為00或50。(例：10000000)
+                </th>
+                <td>
+                    @Html.TextBoxFor(m => m.InvoiceStart)
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    結束發票編號(必填)：<br />
+                    請輸入8碼發票號碼，尾數需為49或99。(例：10000049)
+                </th>
+                <td>
+                    @Html.TextBoxFor(m => m.InvoiceEnd)
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    離線機台ID：<br />
+                    InvoiceCategory = 3 or 4時，此欄位必填
+                </th>
+                <td>
+                    @Html.TextBoxFor(m => m.MachineID)
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    產品服務別代號：
+                </th>
+                <td>
+                    @Html.TextBoxFor(m => m.ProductServiceID)
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="buttonPanel">
+        <button type="submit">送出</button>
+        <button type="button" id="reset">重新填寫</button>
+    </div>
+    <h2>顯示結果</h2>
+    <span id="answer" class="div1" style="word-wrap:break-word;">@ViewBag.message</span>
+}

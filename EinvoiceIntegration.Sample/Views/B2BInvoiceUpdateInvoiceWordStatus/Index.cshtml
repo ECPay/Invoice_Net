@@ -1,0 +1,54 @@
+﻿@using EinvoiceIntegration.Enum
+@model EinvoiceIntegration.Models.B2B.UpdateInvoiceWordStatusModel
+@{
+    ViewBag.Title = "綠界科技";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<script type="text/javascript">
+    $(function () {
+        $('#reset').click(function () {
+            location.href='@Url.Action("Index")';
+        });
+    });
+</script>
+@using (Html.BeginForm("Index", "B2BInvoiceUpdateInvoiceWordStatus", FormMethod.Post))
+{
+    <h2>設定字軌號碼狀態</h2>
+    <div class="div1">
+        <table class="table" style="word-wrap:break-word;">
+            <tr>
+                <th>
+                    廠商編號(必填)：
+                </th>
+                <td>
+                    @Html.TextBoxFor(m => m.MerchantID)
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    字軌號碼ID(必填)：<br />
+                    新增字軌後取到的TrackID
+                </th>
+                <td>
+                    @Html.TextBoxFor(m => m.TrackID)
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    發票字軌狀態(必填)：<br />
+                    0:停用, 1:暫停, 2:啟用
+                </th>
+                <td>
+                    @Html.TextBoxFor(m => m.InvoiceStatus)
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="buttonPanel">
+        <button type="submit">送出</button>
+        <button type="button" id="reset">重新填寫</button>
+    </div>
+    <h2>顯示結果</h2>
+    <span id="answer" class="div1" style="word-wrap:break-word;">@ViewBag.message</span>
+}
