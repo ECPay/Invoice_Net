@@ -1,10 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.329
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EinvoiceIntegration", "EinvoiceIntegration\EinvoiceIntegration.csproj", "{6FFEF33A-2F8D-4775-AEEA-E8F1D264E993}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EinvoiceIntegration.Sample", "EinvoiceIntegration.Sample\EinvoiceIntegration.Sample.csproj", "{424B4772-4CCB-471E-9E9D-ED086B448792}"
 EndProject
 Global
@@ -13,10 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6FFEF33A-2F8D-4775-AEEA-E8F1D264E993}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6FFEF33A-2F8D-4775-AEEA-E8F1D264E993}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6FFEF33A-2F8D-4775-AEEA-E8F1D264E993}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6FFEF33A-2F8D-4775-AEEA-E8F1D264E993}.Release|Any CPU.Build.0 = Release|Any CPU
 		{424B4772-4CCB-471E-9E9D-ED086B448792}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{424B4772-4CCB-471E-9E9D-ED086B448792}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{424B4772-4CCB-471E-9E9D-ED086B448792}.Release|Any CPU.ActiveCfg = Release|Any CPU
